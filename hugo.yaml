@@ -20,21 +20,21 @@ environments:
     disableLiveReload: false
 menu:
   main:
-    - weight: 1
+    - weight: 10
       identifier: posts
       pre: ""
       post: ""
       name: Posts
       url: /posts/
       title: ""
-    - weight: 2
+    - weight: 20
       identifier: tags
       pre: ""
       post: ""
       name: Tags
       url: /tags/
       title: ""
-    - weight: 3
+    - weight: 30
       identifier: categories
       pre: ""
       post: ""

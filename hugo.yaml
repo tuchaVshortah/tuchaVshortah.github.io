@@ -11,6 +11,7 @@ params:
   email: nukenbai190104@gmail.com
   link: abc.com
   env: production
+  social: true
 environments:
   production:
     enableRobotsTXT: true

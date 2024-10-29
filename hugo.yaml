@@ -10,6 +10,7 @@ params:
   Author: Nurkanat Baisenkul
   email: nukenbai190104@gmail.com
   link: abc.com
+  env: production
 environments:
   production:
     enableRobotsTXT: true

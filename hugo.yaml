@@ -40,6 +40,10 @@ params:
     url: "btzz342iv@mozmail.com"
   - name: github
     url: "https://github.com/tuchaVshortah"
+  - name: keybase
+    url: "https://keybase.io/nurkanat"
+  - name: linkedin
+    url: "https://www.linkedin.com/in/nurkanat-baisenkul/"
   env: production
 environments:
   production:

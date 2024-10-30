@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
-<title>First_post | My Blog</title>
+<title>First_post | nurkanatb</title>
 <meta name="keywords" content="">
 <meta name="description" content="This is bold text, and this is emphasized text.">
 <meta name="author" content="Nurkanat Baisenkul">
@@ -112,7 +112,7 @@
   },
   "publisher": {
     "@type": "Organization",
-    "name": "My Blog",
+    "name": "nurkanatb",
     "logo": {
       "@type": "ImageObject",
       "url": "http://localhost:1313/assets/favicon.ico"
@@ -137,7 +137,7 @@
 <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="http://localhost:1313/" accesskey="h" title="My Blog (Alt + H)">My Blog</a>
+            <a href="http://localhost:1313/" accesskey="h" title="nurkanatb (Alt + H)">nurkanatb</a>
             <div class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
@@ -184,14 +184,15 @@
 
 <article class="post-single">
   <header class="post-header">
-    
+    <div class="breadcrumbs"><a href="http://localhost:1313/">Home</a>&nbsp;»&nbsp;<a href="http://localhost:1313/posts/">Posts</a></div>
     <h1 class="post-title entry-hint-parent">
       First_post
     </h1>
-    <div class="post-meta"><span title='2024-10-29 17:56:25 +0500 +05'>October 29, 2024</span>&nbsp;·&nbsp;Nurkanat Baisenkul
+    <div class="post-meta"><span title='2024-10-29 17:56:25 +0500 +05'>October 29, 2024</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;Nurkanat Baisenkul
 
 </div>
   </header> 
+
   <div class="post-content"><p>This is <strong>bold</strong> text, and this is <em>emphasized</em> text.</p>
 
 
@@ -205,7 +206,7 @@
     </main>
     
 <footer class="footer">
-        <span>&copy; 2024 <a href="http://localhost:1313/">My Blog</a></span> · 
+        <span>&copy; 2024 <a href="http://localhost:1313/">nurkanatb</a></span> · 
 
     <span>
         Powered by
@@ -272,6 +273,53 @@
         }
     })
 
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
 </script>
 </body>
 

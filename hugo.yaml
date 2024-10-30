@@ -45,6 +45,12 @@ menu:
       name: Categories
       url: /categories/
       title: ""
+      
 markup:
   highlight:
-    noClasses: false
+    # anchorLineNos: true
+    codeFences: true
+    guessSyntax: true
+    lineNos: true
+    # noClasses: false
+    style: monokai

@@ -7,6 +7,10 @@ languages:
     languageName: English
     weight: 1
 params:
+  assets:
+    favicon: "/assets/favicon.ico"
+    favicon16x16: "/assets/favicon-16x16.png"
+    favicon32x32: "/assets/favicon-32x32.png"
   Author: Nurkanat Baisenkul
   email: nukenbai190104@gmail.com
   link: abc.com

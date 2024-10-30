@@ -1,4 +1,5 @@
 baseURL: http://tuchavshortah.github.io/
+languageCode: en-us
 theme: papermod-l50
 title: Nurkanat's Blog
 languages:
@@ -25,6 +26,8 @@ params:
   ShowToc: true
   # comments: false
   author: Nurkanat Baisenkul
+  contact:
+    email: "btzz342iv@mozmail.com"
   homeInfoParams:
     Title: "Hello"
     Content: >

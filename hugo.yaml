@@ -79,3 +79,7 @@ markup:
     lineNos: true
     # noClasses: false
     style: monokai
+pagination:
+  disableAliases: false
+  pagerSize: 10
+  path: page

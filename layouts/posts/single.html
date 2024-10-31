@@ -6,7 +6,7 @@
       {{ $dateHuman := . | time.Format ":date_long" }}
       <time datetime="{{ $dateMachine }}">{{ $dateHuman }}</time>
     {{ end }}
-    <article>
+    <article style="padding-top: 25px; padding-bottom: 25px;">
       {{ .Content }}
     </article>
     <aside>
@@ -19,7 +19,7 @@
         </ul>
       {{ end }}
     </aside>
-    <div class="giscus" style="padding-top: 25px;">
+    <div class="giscus">
         <script src="https://giscus.app/client.js"
             data-repo="tuchaVshortah/tuchaVshortah.github.io"
             data-repo-id="R_kgDONHXazQ"

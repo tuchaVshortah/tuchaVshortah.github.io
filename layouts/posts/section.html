@@ -1,0 +1,16 @@
+{{ define "main" }}
+  <main>
+    {{ .Content }}
+
+    {{ $pages := where site.RegularPages "Type" "posts" }}
+    {{ $paginator := .Paginate $pages }}
+
+    {{ range $paginator.Pages }}
+      <h1><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h1>
+    {{ end }}
+    
+    <div style="font-weight: 900;">
+      {{ template "_internal/pagination.html" . }}
+    </div>
+  </main>
+{{ end }}

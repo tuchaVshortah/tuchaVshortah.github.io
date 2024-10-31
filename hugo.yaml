@@ -39,6 +39,8 @@ params:
     url: "https://github.com/tuchaVshortah"
   - name: keybase
     url: "https://keybase.io/nurkanat"
+  - name: "key"
+    url: "https://keybase.io/nurkanat/pgp_keys.asc"
   - name: linkedin
     url: "https://www.linkedin.com/in/nurkanat-baisenkul/"
   env: production

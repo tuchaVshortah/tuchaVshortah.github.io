@@ -1,0 +1,85 @@
+baseURL: http://tuchavshortah.github.io/
+languageCode: en-us
+theme: papermod-l50
+title: Nurkanat's Blog
+languages:
+  en:
+    title: nurkanatb
+    languageName: English
+    weight: 1
+params:
+  assets:
+    favicon: "/assets/favicon.ico"
+    favicon16x16: "/assets/favicon-16x16.png"
+    favicon32x32: "/assets/favicon-32x32.png"
+  # disableThemeToggle: true
+  # ShowShareButtons: true
+  ShowReadingTime: true
+  # disableSpecial1stPost: true
+  # displayFullLangName: true
+  # ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  # ShowRssButtonInSectionTermList: true
+  ShowAllPagesInArchive: true
+  ShowPageNums: true
+  ShowToc: true
+  # comments: false
+  author: Nurkanat Baisenkul
+  contact:
+    email: "btzz342iv@mozmail.com"
+  homeInfoParams:
+    Title: "Hello"
+    Content: >
+      👋 Welcome to my blog. Here I share my thoughts and ideas.
+  socialIcons:
+  - name: email
+    url: "btzz342iv@mozmail.com"
+  - name: github
+    url: "https://github.com/tuchaVshortah"
+  - name: keybase
+    url: "https://keybase.io/nurkanat"
+  - name: linkedin
+    url: "https://www.linkedin.com/in/nurkanat-baisenkul/"
+  env: production
+environments:
+  production:
+    enableRobotsTXT: true
+    minifyOutput: true
+  development:
+    disableLiveReload: false
+menu:
+  main:
+    - weight: 10
+      identifier: posts
+      pre: ""
+      post: ""
+      name: Posts
+      url: /posts/
+      title: ""
+    - weight: 20
+      identifier: tags
+      pre: ""
+      post: ""
+      name: Tags
+      url: /tags/
+      title: ""
+    - weight: 30
+      identifier: categories
+      pre: ""
+      post: ""
+      name: Categories
+      url: /categories/
+      title: ""
+markup:
+  highlight:
+    # anchorLineNos: true
+    codeFences: true
+    guessSyntax: true
+    lineNos: true
+    # noClasses: false
+    style: monokai
+pagination:
+  disableAliases: false
+  pagerSize: 10
+  path: page

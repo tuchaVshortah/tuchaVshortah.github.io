@@ -70,3 +70,11 @@ My responsibilties included managing employee accounts and sites. I uploaded the
 <!-- ![Almaty Marathon 2024 Medal](/assets/images/medal_almaty_marathon_2024.jpg) -->
 
 {{< figure src="/assets/images/medal_almaty_marathon_2024.jpg" title="Almaty Marathon 2024 Medal" alt="Almaty Marathon 2024 Medal" width="75%" >}}
+
+
+
+# My goals
+
+1. I would like to expand my knowledge in the area of cloud technologies and DevOps, as well as contribute to the development of various cloud-based or on-premises services.
+
+2. My final Goal is to become a well experienced and certified Cloud&Devops Developer with a strong competency in full stack WEB development.

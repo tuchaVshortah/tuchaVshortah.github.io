@@ -28,7 +28,9 @@ I find my passion in creating and securing reliable systems. My mission is to de
 # Educational background
 
 ## Astana IT University (2021-2024)
-Bachelor of Cybersecurity
+1. Bachelor of Cybersecurity
+2. Department of Informational Security
 
 ## Suleyman Demirel University (2024 - Today)
-Master of Computer Science
+1. Master of Computer Science
+2. Faculty of Engineering and Natural Sciences

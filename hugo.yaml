@@ -8,6 +8,9 @@ languages:
     languageName: English
     weight: 1
 params:
+  cover:
+    responsiveImages: false
+    linkFullImages: true
   fuseOpts:
     isCaseSensitive: false
     shouldSort: true

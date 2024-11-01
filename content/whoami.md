@@ -34,3 +34,25 @@ I find my passion in creating and securing reliable systems. My mission is to de
 ## Suleyman Demirel University (2024 - Today)
 1. Master of Computer Science
 2. Faculty of Engineering and Natural Sciences
+
+
+
+# Work experience
+
+## 2021 (3 months)
+**Development Bank of Kazakhstan** - Cybersecurity Engineer
+
+**Responsibilities:**
+
+I worked as a cybersecurity engineer at Development Bank of Kazakhstan (DBK), where I applied my skills in Python and Rust to test the bank's network security and develop software that would detect ARP spoofing attacks in local network. In three months, I contributed to enhancing the bank's cybersecurity posture and preventing potential breaches. I also learned new techniques and tools from my colleagues and mentors, who were experienced and supportive professionals in this domain.
+
+**Projects:**
+
+[arp-spoofing-detector-rs](https://github.com/tuchaVshortah/arp-spoofing-detector-rs)
+
+## 2024 (6 monhths)
+**Akhmet Yassawi University** - IT Specialist
+
+**Responsibilities:**
+
+My responsibilties included managing employee accounts and sites. I uploaded the necessary information to the sites and updated them. I helped the staff to fill out, set up and regain access to their work accounts if they lost it.

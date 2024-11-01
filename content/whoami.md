@@ -78,3 +78,21 @@ My responsibilties included managing employee accounts and sites. I uploaded the
 1. I would like to expand my knowledge in the area of cloud technologies and DevOps, as well as contribute to the development of various cloud-based or on-premises services.
 
 2. My final Goal is to become a well experienced and certified Cloud&Devops Developer with a strong competency in full stack WEB development.
+
+# Certificates
+
+- [Google Cybersecurity Professional](https://www.coursera.org/account/accomplishments/specialization/certificate/K9HHGTC2J6UH) -> [PDF](/assets/pdfs/Google_Cybersecurity_Professional.pdf)
+
+- [Malware Analysis and Introduction to Assembly Language](https://www.coursera.org/account/accomplishments/certificate/EQWK4YF9LA3B) -> [PDF](/assets/pdfs/Malware_Analysis_and_Introduction_to_Assembly.pdf)
+
+- [Career Essentials in Cybersecurity by Microsoft and LinkedIn](https://www.linkedin.com/learning/certificates/2d3ef827f04453926e830bde0667c0549a7d1d41a61c4c59d54c5fdac6da8a25?u=2113185) -> [PDF](/assets/images/Career_Essentials_in_Cybersecurity_by_Microsoft_and_LinkedIn.jpg)
+
+- AWS Cloud Practitioner Essentials -> [PDF](/assets/pdfs/AWS_Cloud_Practitioner_Essentials.pdf)
+
+- IELTS Band 7.5 -> [JPG](/assets/images/IELTS_Certificate_Band_7.5.jpg)
+
+- [Agile Foundations](https://www.linkedin.com/learning/certificates/222be0f8dd204515e495f2725746aeb9f840c0bf925580dd2909adb77c405d08?u=2113185)
+
+- [Software Design: From Requirements to Release](https://www.linkedin.com/learning/certificates/fa9700bfd8c47a73a640691b6f0c5d81f36a591294f92ae37ba6350c73115d64?u=2113185)
+
+- [Software Development Life Cycle (SDLC)](https://www.linkedin.com/learning/certificates/9fde0275ae8137a5cce67039b5753ff311b17fbb7102a7a6a94ef68d995c7394?u=2113185)

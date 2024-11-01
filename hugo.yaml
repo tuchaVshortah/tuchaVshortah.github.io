@@ -8,6 +8,19 @@ languages:
     languageName: English
     weight: 1
 params:
+  comments: true
+  cover:
+    responsiveImages: false
+    linkFullImages: true
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    # limit: 10 # refer: https://www.fusejs.io/api/methods.html#search
+    keys: ["title", "permalink", "summary", "content"]
   assets:
     favicon: "/assets/favicon.ico"
     favicon16x16: "/assets/favicon-16x16.png"
@@ -39,6 +52,8 @@ params:
     url: "https://github.com/tuchaVshortah"
   - name: keybase
     url: "https://keybase.io/nurkanat"
+  - name: "key"
+    url: "https://keybase.io/nurkanat/pgp_keys.asc"
   - name: linkedin
     url: "https://www.linkedin.com/in/nurkanat-baisenkul/"
   env: production
@@ -51,25 +66,41 @@ environments:
 menu:
   main:
     - weight: 10
+      identifier: whoami
+      pre: ""
+      post: ""
+      name: whoami
+      url: /whoami/
+      title: "Who am I? | About me"
+      params:
+        disableSpecial1stPost: true
+    - weight: 20
       identifier: posts
       pre: ""
       post: ""
       name: Posts
       url: /posts/
       title: ""
-    - weight: 20
+    - weight: 30
       identifier: tags
       pre: ""
       post: ""
       name: Tags
       url: /tags/
       title: ""
-    - weight: 30
+    - weight: 40
       identifier: categories
       pre: ""
       post: ""
       name: Categories
       url: /categories/
+      title: ""
+    - weight: 50
+      identifier: search
+      pre: ""
+      post: ""
+      name: Search
+      url: /search/
       title: ""
 markup:
   highlight:
@@ -83,3 +114,8 @@ pagination:
   disableAliases: false
   pagerSize: 10
   path: page
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # necessary for search

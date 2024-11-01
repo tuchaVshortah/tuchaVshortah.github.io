@@ -53,20 +53,29 @@ environments:
 menu:
   main:
     - weight: 10
+      identifier: whoami
+      pre: ""
+      post: ""
+      name: whoami
+      url: /whoami/
+      title: "Who am I? | About me"
+      params:
+        disableSpecial1stPost: true
+    - weight: 20
       identifier: posts
       pre: ""
       post: ""
       name: Posts
       url: /posts/
       title: ""
-    - weight: 20
+    - weight: 30
       identifier: tags
       pre: ""
       post: ""
       name: Tags
       url: /tags/
       title: ""
-    - weight: 30
+    - weight: 40
       identifier: categories
       pre: ""
       post: ""

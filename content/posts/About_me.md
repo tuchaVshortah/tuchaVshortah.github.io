@@ -4,9 +4,4 @@ draft = false
 title = 'About me'
 url = '/whoami'
 
-[cover]
-image = "/assets/images/diving.jpg"
-alt = "Diving"
-caption = "<Diving"
-relative = false
 +++

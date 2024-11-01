@@ -65,11 +65,11 @@ My responsibilties included managing employee accounts and sites. I uploaded the
 
 <!-- ![Almaty Marathon 2024 Certificate](/assets/images/almaty_marathon_2024.png) -->
 
-{{< figure src="/assets/images/almaty_marathon_2024.png" title="Almaty Marathon 2024 Certificate" alt="Almaty Marathon 2024 Certificate" width="75%" >}}
+{{< figure src="/assets/images/almaty_marathon_2024.png" alt="Almaty Marathon 2024 Certificate" width="75%" >}}
 
 <!-- ![Almaty Marathon 2024 Medal](/assets/images/medal_almaty_marathon_2024.jpg) -->
 
-{{< figure src="/assets/images/medal_almaty_marathon_2024.jpg" title="Almaty Marathon 2024 Medal" alt="Almaty Marathon 2024 Medal" width="75%" >}}
+{{< figure src="/assets/images/medal_almaty_marathon_2024.jpg" alt="Almaty Marathon 2024 Medal" width="75%" >}}
 
 
 

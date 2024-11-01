@@ -8,6 +8,7 @@ languages:
     languageName: English
     weight: 1
 params:
+  comments: true
   cover:
     responsiveImages: false
     linkFullImages: true

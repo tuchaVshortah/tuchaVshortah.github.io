@@ -56,3 +56,17 @@ I worked as a cybersecurity engineer at Development Bank of Kazakhstan (DBK), wh
 **Responsibilities:**
 
 My responsibilties included managing employee accounts and sites. I uploaded the necessary information to the sites and updated them. I helped the staff to fill out, set up and regain access to their work accounts if they lost it.
+
+
+
+# Personal Achievements
+
+## Almaty Marathon 2024
+
+<!-- ![Almaty Marathon 2024 Certificate](/assets/images/almaty_marathon_2024.png) -->
+
+{{< figure src="/assets/images/almaty_marathon_2024.png" title="Almaty Marathon 2024 Certificate" alt="Almaty Marathon 2024 Certificate" width="75%" >}}
+
+<!-- ![Almaty Marathon 2024 Medal](/assets/images/medal_almaty_marathon_2024.jpg) -->
+
+{{< figure src="/assets/images/medal_almaty_marathon_2024.jpg" title="Almaty Marathon 2024 Medal" alt="Almaty Marathon 2024 Medal" width="75%" >}}

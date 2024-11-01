@@ -59,7 +59,7 @@ My responsibilties included managing employee accounts and sites. I uploaded the
 
 
 
-# Personal Achievements
+# Personal achievements
 
 ## Almaty Marathon 2024
 

@@ -70,7 +70,7 @@ menu:
       pre: ""
       post: ""
       name: whoami
-      url: /whoami/
+      url: /posts/whoami/
       title: "Who am I? | About me"
       params:
         disableSpecial1stPost: true

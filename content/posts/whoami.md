@@ -48,6 +48,10 @@ I find my passion in creating and securing reliable systems. My mission is to de
 ## 2021 (3 months)
 **Development Bank of Kazakhstan** - Cybersecurity Engineer
 
+<!-- ![DBK logo](/assets/images/dbk_logo.png) -->
+
+{{< embedImage src="/assets/images/dbk_logo.png" alt="DBK logo" maxWidth="25vw" maxHeight="25vh" >}}
+
 **Responsibilities:**
 
 I worked as a cybersecurity engineer at Development Bank of Kazakhstan (DBK), where I applied my skills in Python and Rust to test the bank's network security and develop software that would detect ARP spoofing attacks in local network. In three months, I contributed to enhancing the bank's cybersecurity posture and preventing potential breaches. I also learned new techniques and tools from my colleagues and mentors, who were experienced and supportive professionals in this domain.
@@ -59,12 +63,20 @@ I worked as a cybersecurity engineer at Development Bank of Kazakhstan (DBK), wh
 ## 2024 (6 months)
 **Akhmet Yassawi University** - IT Specialist
 
+<!-- ![AYU logo](/assets/images/ayu_logo.png) -->
+
+{{< embedImage src="/assets/images/ayu_logo.png" alt="AYU logo" maxWidth="25vw" maxHeight="25vh" >}}
+
 **Responsibilities:**
 
 My responsibilties included managing employee accounts and sites. I uploaded the necessary information to the sites and updated them. I helped the staff to fill out, set up and regain access to their work accounts if they lost it.
 
 ## 2024 (5 months)
 **Epam Systems** - Student Cloud&DevOps Trainee (Apprenticeship)
+
+<!-- ![Epam logo](/assets/images/epam_logo.png) -->
+
+{{< embedImage src="/assets/images/epam_logo.png" alt="Epam logo" maxWidth="25vw" maxHeight="25vh" >}}
 
 **What did I do?**
 

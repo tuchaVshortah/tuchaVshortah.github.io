@@ -56,7 +56,7 @@ I worked as a cybersecurity engineer at Development Bank of Kazakhstan (DBK), wh
 
 [arp-spoofing-detector-rs](https://github.com/tuchaVshortah/arp-spoofing-detector-rs)
 
-## 2024 (6 monhths)
+## 2024 (6 months)
 **Akhmet Yassawi University** - IT Specialist
 
 **Responsibilities:**

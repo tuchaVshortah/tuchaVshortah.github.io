@@ -6,14 +6,19 @@
     <description>Recent content in Posts on nurkanatb</description>
     <generator>Hugo -- 0.136.5</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 01 Nov 2024 23:41:04 +0500</lastBuildDate>
+    <lastBuildDate>Fri, 01 Nov 2024 15:56:20 +0500</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>About me</title>
-      <link>http://localhost:1313/whoami/</link>
-      <pubDate>Fri, 01 Nov 2024 23:41:04 +0500</pubDate>
-      <guid>http://localhost:1313/whoami/</guid>
-      <description></description>
+      <title>whoami | About me</title>
+      <link>http://localhost:1313/posts/whoami/</link>
+      <pubDate>Fri, 01 Nov 2024 15:56:20 +0500</pubDate>
+      <guid>http://localhost:1313/posts/whoami/</guid>
+      <description>&lt;h1 id=&#34;about-me&#34;&gt;About me&lt;/h1&gt;
+&lt;p&gt;My name is Nurkanat and I am 20 years old. I am a developer with a passion for protecting digital assets and systems from cyber threats. I have a certification in &amp;ldquo;Malware Analysis and Introduction to Assembly Language&amp;rdquo; from IBM, and &amp;ldquo;Google Cybersecurity Professional Certificate&amp;rdquo; from Google.&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;h1 id=&#34;vision--mission&#34;&gt;Vision &amp;amp; Mission&lt;/h1&gt;
+&lt;h2 id=&#34;vision&#34;&gt;Vision&lt;/h2&gt;
+&lt;p&gt;I like WEB&amp;amp;Cloud development and setting up DevOps workflows. This is mainly because I think that those technologies are fundamental nowadays.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Hello world!</title>
@@ -21,8 +26,7 @@
       <pubDate>Tue, 29 Oct 2024 17:56:25 +0500</pubDate>
       <guid>http://localhost:1313/posts/first_post/</guid>
       <description>&lt;p&gt;&lt;em&gt;This is my first post.&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/assets/images/beautiful_car.jpg#center&#34; alt=&#34;Car&#34;  /&gt;
-&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
 &lt;!-- raw HTML omitted --&gt;</description>
     </item>
   </channel>

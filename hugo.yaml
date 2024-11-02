@@ -8,6 +8,11 @@ languages:
     languageName: English
     weight: 1
 params:
+Params:
+  editPost:
+    URL: "https://github.com/tuchaVshortah/tuchaVshortah.github.io/tree/main/content"
+    Text: "Suggest Changes" # edit text
+    appendFilePath: true # to append file path to Edit link
   comments: true
   cover:
     responsiveImages: false
@@ -30,7 +35,7 @@ params:
   ShowReadingTime: true
   # disableSpecial1stPost: true
   # displayFullLangName: true
-  # ShowPostNavLinks: true
+  ShowPostNavLinks: true
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: true
   # ShowRssButtonInSectionTermList: true
@@ -70,7 +75,7 @@ menu:
       pre: ""
       post: ""
       name: whoami
-      url: /whoami/
+      url: /posts/whoami/
       title: "Who am I? | About me"
       params:
         disableSpecial1stPost: true

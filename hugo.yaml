@@ -8,6 +8,11 @@ languages:
     languageName: English
     weight: 1
 params:
+Params:
+  editPost:
+    URL: "https://github.com/tuchaVshortah/tuchaVshortah.github.io/tree/main/content"
+    Text: "Suggest Changes" # edit text
+    appendFilePath: true # to append file path to Edit link
   comments: true
   cover:
     responsiveImages: false

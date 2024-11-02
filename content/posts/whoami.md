@@ -48,6 +48,10 @@ I find my passion in creating and securing reliable systems. My mission is to de
 ## 2021 (3 months)
 **Development Bank of Kazakhstan** - Cybersecurity Engineer
 
+<!-- ![DBK logo](/assets/images/dbk_logo.png) -->
+
+{{< embedImage src="/assets/images/dbk_logo.png" alt="DBK logo" maxWidth="25vw" maxHeight="25vh" >}}
+
 **Responsibilities:**
 
 I worked as a cybersecurity engineer at Development Bank of Kazakhstan (DBK), where I applied my skills in Python and Rust to test the bank's network security and develop software that would detect ARP spoofing attacks in local network. In three months, I contributed to enhancing the bank's cybersecurity posture and preventing potential breaches. I also learned new techniques and tools from my colleagues and mentors, who were experienced and supportive professionals in this domain.
@@ -56,12 +60,33 @@ I worked as a cybersecurity engineer at Development Bank of Kazakhstan (DBK), wh
 
 [arp-spoofing-detector-rs](https://github.com/tuchaVshortah/arp-spoofing-detector-rs)
 
-## 2024 (6 monhths)
+## 2024 (6 months)
 **Akhmet Yassawi University** - IT Specialist
+
+<!-- ![AYU logo](/assets/images/ayu_logo.png) -->
+
+{{< embedImage src="/assets/images/ayu_logo.png" alt="AYU logo" maxWidth="25vw" maxHeight="25vh" >}}
 
 **Responsibilities:**
 
 My responsibilties included managing employee accounts and sites. I uploaded the necessary information to the sites and updated them. I helped the staff to fill out, set up and regain access to their work accounts if they lost it.
+
+## 2024 (5 months)
+**Epam Systems** - Student Cloud&DevOps Trainee (Apprenticeship)
+
+<!-- ![Epam logo](/assets/images/epam_logo.png) -->
+
+{{< embedImage src="/assets/images/epam_logo.png" alt="Epam logo" maxWidth="25vw" maxHeight="25vh" >}}
+
+**What did I do?**
+
+I participated in a competition organized by Epam, which included a few interviews and a few weeks-long course covering the fundamentals of Docker, Kubernetes, and DevOps. All participants were required to complete the course by a certain deadline, or they would be disqualified.
+
+I successfully completed the course and moved on to the next one, the DevOps Bootcamp. This bootcamp was a logical continuation of the previous course, and it covered a wide range of topics, including Docker, CI/CD, Jenkins, GitHub/GitLab CI, Kubernetes, AWS, and Terraform.
+
+The Bootcamp was both challenging and incredibly interesting. I learned many new skills and worked with tools and software that I was unfamiliar with before. By the end of the bootcamp, we also had a few sessions on Gen AI, Agile, and SDLC.. To summarize, by the end of the course, I had learned how to create Docker images, create Kubernetes clusters with persistent storage and various features such as DaemonSets and StatefulSets. I also learned how to use AWS resources like EC2, ECS, EKS, SNS, SQS, SSM, and KMS. I was able to write and deploy CloudFormation stacks and create resources in the cloud using Terraform. In addition, I learned many other things during the Bootcamp.
+
+I would like to thank the folks at Epam for organizing this amazing Bootcamp.
 
 
 

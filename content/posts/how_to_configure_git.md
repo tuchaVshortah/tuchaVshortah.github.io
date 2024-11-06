@@ -124,7 +124,7 @@ This step is *required* to let Github be able to verify your signature. Otherwis
 
 
 
-# Windows/Linux/Mac
+## Windows/Linux/Mac
 
 Use this command to list your keys. Copy a fingerprint of the key you just created. Let's use *3AA5C34371567BD2*:
 ```bash {linenos=inline, hl_lines="1"}

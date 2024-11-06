@@ -166,7 +166,7 @@ After you have copied the Public Key Block relevant to your Private Key you can 
 
 5. Congrats! You have successfully added your public key to Github. There is only one step left - telling git which key to use to sign commits.
 
-
+[**Learn more**](https://docs.github.com/en/authentication/managing-commit-signature-verification/adding-a-gpg-key-to-your-github-account)
 
 # How to configure signed commits for Git
 

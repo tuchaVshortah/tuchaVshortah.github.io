@@ -3,8 +3,8 @@ date = '2024-11-06T07:27:06+05:00'
 draft = false
 title = 'How to configure Git'
 
-tags = ["github", "signatures"]
-categories = ["tutorials", "git"]
+tags = ["configurations", "signatures", "git", "github", "gitlab"]
+categories = ["Tutorials"]
 
 [cover]
 image = "/assets/images/git_logo.jpg"
@@ -64,7 +64,7 @@ Or you can add a PPA for the latest stable version:
 add-apt-repository ppa:git-core/ppa
 ```
 
-# Mac
+## Mac
 
 On Mac if you have homebrew installed:
 ```bash {linenos=inline}
@@ -124,7 +124,7 @@ This step is *required* to let Github be able to verify your signature. Otherwis
 
 
 
-# Windows/Linux/Mac
+## Windows/Linux/Mac
 
 Use this command to list your keys. Copy a fingerprint of the key you just created. Let's use *3AA5C34371567BD2*:
 ```bash {linenos=inline, hl_lines="1"}
@@ -168,7 +168,7 @@ After you have copied the Public Key Block relevant to your Private Key you can 
 
 [**Learn more**](https://docs.github.com/en/authentication/managing-commit-signature-verification/adding-a-gpg-key-to-your-github-account)
 
-# How to configure signed commits for Git
+# Configure signed commits for Git
 
 Before configuring signature verification on Github you have to first setup Git and attach an *identity* that will be used to sign your commits.
 

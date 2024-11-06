@@ -3,13 +3,13 @@ date = '2024-11-01T15:56:20+05:00'
 draft = false
 title = 'whoami | About me'
 
+tags = ["whoami"]
+categories = ["Blog"]
 
 [cover]
 image = "/assets/images/diving.jpg"
 alt = "Diving"
 relative = false
-tags = ["whoami"]
-categories = ["Blog"]
 +++
 
 

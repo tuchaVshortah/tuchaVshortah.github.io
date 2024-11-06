@@ -81,6 +81,89 @@ sudo port install git
 
 
 
+# Install GPG
+
+Canonical release forms can be found here: [www.gnupg.org/download/](https://www.gnupg.org/download/)
+
+## Windows
+
+You can download a full featured binary release from [gpg4win.org](https://gpg4win.org/download.html)
+
+## Linux
+
+Download a package using a package manager of your distribution.
+
+## Mac
+
+Installer for MacOS can be downloaded from [sourceforge.net/p/gpgosx/docu/Download/](https://sourceforge.net/p/gpgosx/docu/Download/)
+
+
+
+# Create a GPG key pair
+
+## Windows/Linux/Mac
+
+For the version 2.1.17 or above:
+```bash {linenos=inline}
+gpg --full-generate-key
+```
+
+For versions lower than 2.1.17:
+```bash {linenos=inline}
+gpg --default-new-key-algo rsa4096 --gen-key
+```
+
+\
+[**Learn more**](https://docs.github.com/en/authentication/managing-commit-signature-verification/generating-a-new-gpg-key)
+
+
+
+# Export your PGP public key
+
+This step is *required* to let Github be able to verify your signature. Otherwise Github would not be able to distinguish the relation between your public and private keys. Remember that private keys are used only to sign your commits locally. Public keys can be used to verify the signature.
+
+# Windows/Linux/Mac
+
+Use this command to list your keys. Copy a fingerprint of the key you just created. Let's use *3AA5C34371567BD2*:
+```bash {linenos=inline, hl_lines="1"}
+gpg --list-secret-keys --keyid-format=long
+/Users/hubot/.gnupg/secring.gpg
+------------------------------------
+sec   4096R/3AA5C34371567BD2 2016-03-10 [expires: 2017-03-10]
+uid                          Hubot <hubot@example.com>
+ssb   4096R/4BB6D45482678BE3 2016-03-10
+
+```
+
+Let's export the public key block relevant to that key:
+```bash {linenos=inline, hl_lines="1"}
+gpg --armor --export 3AA5C34371567BD2
+# Prints the GPG key ID, in ASCII armor format
+```
+
+\
+[**Learn more**](https://docs.github.com/en/authentication/managing-commit-signature-verification/generating-a-new-gpg-key)
+
+
+
+# Add the Public key block to your Github account
+
+After you have copied the Public Key Block relevant to your Private Key you can add it to your Github account
+
+1. Navigate to [Github](https://github.com/) and click on your profile icon on the top right and click on *Settings*:
+![Github right sidebar](/assets/images/github_right_sidebar.png)
+
+2. Click on *SSH and GPG keys*:
+![Github profile settings left sidebar](/assets/images/github_profile_settings_sidebar.png)
+
+3. Press the *New GPG Key* button*:
+![Github profile settings New GPG Key](/assets/images/github_profile_settings_new_gpg_key.png)
+
+4. Then paste the Public Key Block and press *Add GPG Key*:
+![Github profile settings Public Key Block](/assets/images/github_profile_settings_public_key_block.png)
+
+5. Congrats! You have successfully added your public key to Github. There is only one step left - telling git which key to use to sign commits.
+
 # How to configure signed commits for Git
 
 Before configuring signature verification on Github you have to first setup Git and attach an *identity* that will be used to sign your commits.

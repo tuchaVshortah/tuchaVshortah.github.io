@@ -2,13 +2,15 @@ baseURL: http://tuchavshortah.github.io/
 languageCode: en-us
 theme: papermod-l50
 title: Nurkanat's Blog
+taxonomies:
+  tag: tags
+  category: categories
 languages:
   en:
     title: nurkanatb
     languageName: English
     weight: 1
 params:
-Params:
   editPost:
     URL: "https://github.com/tuchaVshortah/tuchaVshortah.github.io/tree/main/content"
     Text: "Suggest Changes" # edit text

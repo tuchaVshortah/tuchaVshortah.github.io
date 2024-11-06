@@ -6,8 +6,16 @@
     <description>Recent content in Posts on nurkanatb</description>
     <generator>Hugo -- 0.136.5</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 01 Nov 2024 15:56:20 +0500</lastBuildDate>
+    <lastBuildDate>Wed, 06 Nov 2024 07:27:06 +0500</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to configure Git</title>
+      <link>http://localhost:1313/posts/how_to_configure_git/</link>
+      <pubDate>Wed, 06 Nov 2024 07:27:06 +0500</pubDate>
+      <guid>http://localhost:1313/posts/how_to_configure_git/</guid>
+      <description>&lt;h1 id=&#34;about-git-and-remote-code-repositories&#34;&gt;About Git and Remote Code Repositories&lt;/h1&gt;
+&lt;p&gt;Git was designed to enable versioning of the source code. You can use it to store and modify your code reliably in a local or a remote repository. It allows you to collaborate with others and revert changes if you need to do so. The main advantage of using Git it shows how the source code changed and the descriptions and comments left by developers.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>whoami | About me</title>
       <link>http://localhost:1313/posts/whoami/</link>

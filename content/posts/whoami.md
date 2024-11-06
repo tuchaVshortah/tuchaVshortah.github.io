@@ -3,7 +3,7 @@ date = '2024-11-01T15:56:20+05:00'
 draft = false
 title = 'whoami | About me'
 
-tags = ["whoami"]
+tags = ["me"]
 categories = ["Blog"]
 
 [cover]

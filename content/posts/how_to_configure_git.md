@@ -18,6 +18,8 @@ Git was designed to enable versioning of the source code. You can use it to stor
 
 Remote code repositories such as Github and GitLab allow you to conveniently share your code with others. Depending on your needs you might want to verify your identity you create new commits. Both Github and GitLab allow you to do so by utilizing signed commits. We will focus on Github in this article.
 
+
+
 # About Verified/Signed commits
 
 By default, whenever you push a commit to a remote Github repository it does not know a true identity attached to the commit. This might, potentially, make it harder for other users and your collaborators verify your identity. 
@@ -37,3 +39,17 @@ This can be configured by notifying Github about the *identity* or a *GPG key* a
 ![Git user signed commit](/assets/images/git_user_signed_commit.png)
 
 [**Learn more**](https://docs.github.com/en/authentication/managing-commit-signature-verification/about-commit-signature-verification)
+
+
+
+# How to configure signed commits for Git
+
+Before configuring signature verification on Github you have to first setup Git and attach an *identity* that will be used to sign your commits.
+
+Basically, you are required to tell Git the following information in order to be able to push commits: username and email. Everything else is optional.
+
+Configure a username and an email:
+```bash {linenos=inline}
+git config set user.name "<your_name> <your_surname>"
+git config set user.email "<your_username>@<server>.<tld>"
+```

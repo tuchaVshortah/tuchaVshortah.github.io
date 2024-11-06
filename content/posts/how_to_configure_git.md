@@ -42,6 +42,43 @@ This can be configured by notifying Github about the *identity* or a *GPG key* a
 
 
 
+# Install Git
+
+## Windows
+
+To install Git on Windows you might open a Powershell terminal and paste this command:
+```bash {linenos=inline}
+winget install --id Git.Git -e --source winget
+```
+
+## Ubuntu
+
+Use this command to install Git on Ubuntu:
+```bash {linenos=inline}
+apt-get install git
+```
+
+Or you can add a PPA for the latest stable version:
+```bash {linenos=inline}
+add-apt-repository ppa:git-core/ppa
+```
+
+# Mac
+
+On Mac if you have homebrew installed:
+```bash {linenos=inline}
+brew install git
+```
+
+Or if you have MacPorts installed:
+```bash {linenos=inline}
+sudo port install git
+```
+
+[**Learn more**](https://git-scm.com/downloads)
+
+
+
 # How to configure signed commits for Git
 
 Before configuring signature verification on Github you have to first setup Git and attach an *identity* that will be used to sign your commits.

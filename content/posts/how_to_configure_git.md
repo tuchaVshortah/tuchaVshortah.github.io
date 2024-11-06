@@ -38,6 +38,7 @@ This can be configured by notifying Github about the *identity* or a *GPG key* a
 
 ![Git user signed commit](/assets/images/git_user_signed_commit.png)
 
+\
 [**Learn more**](https://docs.github.com/en/authentication/managing-commit-signature-verification/about-commit-signature-verification)
 
 
@@ -75,6 +76,7 @@ Or if you have MacPorts installed:
 sudo port install git
 ```
 
+\
 [**Learn more**](https://git-scm.com/downloads)
 
 

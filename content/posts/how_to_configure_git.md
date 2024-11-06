@@ -64,7 +64,7 @@ Or you can add a PPA for the latest stable version:
 add-apt-repository ppa:git-core/ppa
 ```
 
-# Mac
+## Mac
 
 On Mac if you have homebrew installed:
 ```bash {linenos=inline}

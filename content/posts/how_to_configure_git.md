@@ -122,6 +122,8 @@ gpg --default-new-key-algo rsa4096 --gen-key
 
 This step is *required* to let Github be able to verify your signature. Otherwise Github would not be able to distinguish the relation between your public and private keys. Remember that private keys are used only to sign your commits locally. Public keys can be used to verify the signature.
 
+
+
 # Windows/Linux/Mac
 
 Use this command to list your keys. Copy a fingerprint of the key you just created. Let's use *3AA5C34371567BD2*:
@@ -163,6 +165,8 @@ After you have copied the Public Key Block relevant to your Private Key you can 
 ![Github profile settings Public Key Block](/assets/images/github_profile_settings_public_key_block.png)
 
 5. Congrats! You have successfully added your public key to Github. There is only one step left - telling git which key to use to sign commits.
+
+
 
 # How to configure signed commits for Git
 

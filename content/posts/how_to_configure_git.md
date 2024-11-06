@@ -168,7 +168,7 @@ After you have copied the Public Key Block relevant to your Private Key you can 
 
 [**Learn more**](https://docs.github.com/en/authentication/managing-commit-signature-verification/adding-a-gpg-key-to-your-github-account)
 
-# How to configure signed commits for Git
+# Configure signed commits for Git
 
 Before configuring signature verification on Github you have to first setup Git and attach an *identity* that will be used to sign your commits.
 

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Me on nurkanatb</title>
+    <link>http://localhost:1313/tags/me/</link>
+    <description>Recent content in Me on nurkanatb</description>
+    <generator>Hugo -- 0.136.5</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 01 Nov 2024 15:56:20 +0500</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/me/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>whoami | About me</title>
+      <link>http://localhost:1313/posts/whoami/</link>
+      <pubDate>Fri, 01 Nov 2024 15:56:20 +0500</pubDate>
+      <guid>http://localhost:1313/posts/whoami/</guid>
+      <description>&lt;h1 id=&#34;about-me&#34;&gt;About me&lt;/h1&gt;
+&lt;p&gt;My name is Nurkanat and I am 20 years old. I am a developer with a passion for protecting digital assets and systems from cyber threats. I have a certification in &amp;ldquo;Malware Analysis and Introduction to Assembly Language&amp;rdquo; from IBM, and &amp;ldquo;Google Cybersecurity Professional Certificate&amp;rdquo; from Google.&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;h1 id=&#34;vision--mission&#34;&gt;Vision &amp;amp; Mission&lt;/h1&gt;
+&lt;h2 id=&#34;vision&#34;&gt;Vision&lt;/h2&gt;
+&lt;p&gt;I like WEB&amp;amp;Cloud development and setting up DevOps workflows. This is mainly because I think that those technologies are fundamental nowadays.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

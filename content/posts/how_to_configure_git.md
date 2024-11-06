@@ -3,6 +3,9 @@ date = '2024-11-06T07:27:06+05:00'
 draft = false
 title = 'How to configure Git'
 
+tags = ["github", "signatures"]
+categories = ["tutorials", "git"]
+
 [cover]
 image = "/assets/images/git_logo.jpg"
 alt = "Git logo"

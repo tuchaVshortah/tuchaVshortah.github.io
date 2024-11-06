@@ -175,3 +175,27 @@ Configure a username and an email:
 git config set user.name "<your_name> <your_surname>"
 git config set user.email "<your_username>@<server>.<tld>"
 ```
+
+Configure the GPG program, enable GPG commit signing and set the fingerprint of your private key:
+```{linenos=inline, hl_lines="4 9 12"}
+# Use the path where GPG installation is located.
+# Your actual installation might differ from the one in the example.
+# Make sure to verify the path or git would not be able to sign commits.
+git config set gpg.program "C:\Program Files (x86)\GnuPG\bin\gpg.exe"
+
+# Make sure to use fingerprint of the correct private key.
+# Otherwise git and Github would be configure for different key pairs.
+# You can list your keys using the command from a previous step.
+git config set user.signingKey 3AA5C34371567BD2
+
+# Enable GPG commit signing.
+git config set commit.gpgSign true
+```
+
+
+
+# Congratulations!
+
+I am glad to tell you that you have a completed the setup and can verify your results by creating a commit. Remember that the system will periodically ask you for the password you have used to encrypt your private key. **Do not share this password and the private key**.
+
+I hope you enjoyed this tutorial. If so, please consider leaving a comment or a reaction below. Thank you for your attention!

@@ -7,7 +7,7 @@ taxonomies:
   category: categories
 languages:
   en:
-    title: nurkanatb
+    title: nurkanatb.kz
     languageName: English
     weight: 1
 params:
@@ -54,7 +54,7 @@ params:
       👋 Welcome to my blog. Here I share my thoughts and ideas.
   socialIcons:
   - name: email
-    url: "btzz342iv@mozmail.com"
+    url: "mailto:btzz342iv@mozmail.com"
   - name: github
     url: "https://github.com/tuchaVshortah"
   - name: keybase

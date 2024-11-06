@@ -8,6 +8,8 @@ title = 'whoami | About me'
 image = "/assets/images/diving.jpg"
 alt = "Diving"
 relative = false
+tags = ["whoami"]
+categories = ["Blog"]
 +++
 
 

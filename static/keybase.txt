@@ -1,52 +1,75 @@
------BEGIN PGP PUBLIC KEY BLOCK-----
+==================================================================
+https://keybase.io/nurkanat
+--------------------------------------------------------------------
 
-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
-Ml95WWE6PJ3RykbSzUo74oOYmAvQIQ==
-=5smU
------END PGP PUBLIC KEY BLOCK-----
+I hereby claim:
+
+  * I am an admin of https://nurkanatb.kz
+  * I am nurkanat (https://keybase.io/nurkanat) on keybase.
+  * I have a public key with fingerprint 7BBA E1EB 5A68 E66E 896E  F86A 006A 3595 AC4C E96F
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01014ead9ab0bea8813d62180ff92f5b565b9fcba0011d2b405d6be420734059dca70a",
+      "fingerprint": "7bbae1eb5a68e66e896ef86a006a3595ac4ce96f",
+      "host": "keybase.io",
+      "key_id": "006a3595ac4ce96f",
+      "kid": "0101a94e12d40d24706fc4110ad4c5dfd610fa458db3085214884c0951b8b41842ba0a",
+      "uid": "3c8b7779d2132a0729326828981fac19",
+      "username": "nurkanat"
+    },
+    "service": {
+      "hostname": "nurkanatb.kz",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1731003979,
+  "expire_in": 157680000,
+  "prev": "868a00d86d5f0041886afb8f3118d452ae1d2b67a05cd190cfee8da96c11b5af",
+  "seqno": 20,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.1.13
+Comment: https://keybase.io/crypto
+
+yMNtAnicZVJ9TJVVGOcrRyAiCSjQoL1MzeTjnPfzvHcgo1AKKK3mIKF7fT/Oe+8V
+ufdy7wUlBgsYFBJNalQ0x7AGlKCD2jSJnFw0hrYikwiFGH4AJhg5Q8EZnddqbXX+
+Oec85/f7nef5Pc+ZIF+vAG+vPVxjZ9YNu/f5vg+KvMzxKzJLKdmullCGUiofP9zw
+XhW73KZ8q0oZKAABZLGkipIMZCwhBBmVpyECmibSGidzPCeLmiJLAECo0jILOJWX
+MUsDgSFnUVUkAUhUHKVZbWbsdDitNjeRFWRZwhDLnMQjzPMYiTzWEE9UeInhRE5S
+WAWLvEaIFrtLZ5DkZMmFE6x2EiMX01/p/R//b96SyGJIqyxQaVYAvKawEAJJZRVO
+1VQeAk1iOaTKDEAcDVmEWAWIHJSRzELE0qQkPe+ih3KMgmRBEESVhgwtAYEWGZpH
+NBIR1CQFijrQhZ02qQATtK3ImS/ZJDdVFkeRaLFVwbqxeiX/QcgJ+a8RrsNpd9sV
++17yYnG7HS6DznSXOHToPiyb/hYxyVabSnwkjGLsdFntNsoACVJxW3VVKDAQAEYU
+xDgK73dYndhk1RGcwCNAlv4PLiaSiEfEaRXxKqcBQKolzmsy0hgIkcpyNGkNaSUv
+SIBTVCgCRcMYqZLIKxCSlukuu3ChzU4ZaCLqlsxE02U1k3qKnJgq8/Tl+Xl5B3it
+eMRHHzCvgEdX/zN2G9cFL+e8YRp0Tfa8vzkDDzU3WXzDU0e2fv3Yc02vqsLMEb/Q
+oYvv+aPAZ2eyHvTPDZ/rGv8ueSTp95CUrBe6dnYLsVUjgEq729Bx/LpPweag8JDh
+1uk1a/tB1A95h0+eejPTE0FFuiZeefvFqbCJvApzZcj0YsN26suTWZH3FiZvBrZ9
+ZYDbj9W8fpYO9O0ZKcj0vZy8I8FEtba/nPTgakvUT+lbZjw/Rj29c3Z0Yebz2NsX
+5kuUlX0HVrWD+xOHPPHGQ8aP5Kc2VQYlBo/VjG4qnO8KHfL5tdV30nn4i2EL9cmG
+wciK4QNh3Yt8SkVizdkg/20B3z8+aqn3CA15T4Bsd1pux9G2lfeOc92x/knXL1cP
+lKdG3hisa3LddHTUHD1RHzHVYf9NnN6TOdW4kNy5LKc/8+1L0QGerNKY9OhSQ8z4
+qkbj+vnCJNB2cLBlLuXqmDYkNN6ay/i0d5e/98L+I89r79bXKPnuRaZwR0iuqXld
+/2fe135Zi469s9TWcjo6sHx4YDHh1sY7A7XL4eK5Vr+pyMTxjA/Lc+5vC26sLq4K
+TVXm4mOvlMTPVhfUhQvtXdWz9LXOgrr4pbsbLpRxhbk+lt6lbDW899LtWuNE9ljY
+nZSKiOqt07sulZxvBrVvjameLfMVV3Z/c+JM6uk1VavXtxnN+w4+mRYR8/OpP5jJ
+3ZU5H2f0GPMaLv4JpD29kQ==
+=q/wg
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/nurkanat
+
+==================================================================

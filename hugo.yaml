@@ -79,8 +79,6 @@ menu:
       name: whoami
       url: /posts/whoami/
       title: "Who am I? | About me"
-      params:
-        disableSpecial1stPost: true
     - weight: 20
       identifier: posts
       pre: ""

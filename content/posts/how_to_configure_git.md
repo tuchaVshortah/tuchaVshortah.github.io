@@ -200,6 +200,6 @@ git config set commit.gpgSign true
 
 # Congratulations!
 
-I am glad to tell you that you have a completed the setup and can verify your results by creating a commit. Remember that the system will periodically ask you for the password you have used to encrypt your private key. **Do not share this password and the private key**.
+I am glad to tell that you have completed the setup and can verify your results by creating a commit. Remember that your system might periodically ask you for the password you have used to encrypt your private key. **Do not share this password and the private key**.
 
 I hope you enjoyed this tutorial. If so, please consider leaving a comment or a reaction below. Thank you for your attention!

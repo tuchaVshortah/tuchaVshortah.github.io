@@ -1,7 +1,7 @@
 +++
 date = '2024-11-12T20:11:26+05:00'
 draft = false
-title = 'How to restore the old context menu in windows 11'
+title = 'How to restore the old context menu in Windows 11?'
 
 
 tags = ["configurations", "windows"]

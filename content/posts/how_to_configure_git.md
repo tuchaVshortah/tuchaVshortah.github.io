@@ -24,19 +24,19 @@ Remote code repositories such as Github and GitLab allow you to conveniently sha
 
 By default, whenever you push a commit to a remote Github repository it does not know a true identity attached to the commit. This might, potentially, make it harder for other users and your collaborators verify your identity. 
 
-![Unverified commits](/assets/images/git_unverified_commits.png)
+![Unverified commits](/assets/images/git_unverified_commits.png#center)
 
 Other changes applied through the Github's web interface and pull requests are verified using a verified signature managed by Github.
 
-![Github signed commit](/assets/images/github_signed_commit.png)
+![Github signed commit](/assets/images/github_signed_commit.png#center)
 
 Depending on your needs you might want to use your own signature to verify your commits and other changes such as merge requests.
 
-![Git verified commits](/assets/images/git_verified_commits.png)
+![Git verified commits](/assets/images/git_verified_commits.png#center)
 
 This can be configured by notifying Github about the *identity* or a *GPG key* attached to your commits.
 
-![Git user signed commit](/assets/images/git_user_signed_commit.png)
+![Git user signed commit](/assets/images/git_user_signed_commit.png#center)
 
 \
 [**Learn more**](https://docs.github.com/en/authentication/managing-commit-signature-verification/about-commit-signature-verification)

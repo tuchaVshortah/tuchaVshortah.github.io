@@ -47,22 +47,22 @@ params:
   # comments: false
   author: Nurkanat Baisenkul
   contact:
-    email: "btzz342iv@mozmail.com"
+    email: "nurkanatbaisenkul@outlook.com"
   homeInfoParams:
     Title: "Hello"
     Content: >
       👋 Welcome to my blog. Here I share my thoughts and ideas.
   socialIcons:
-  - name: email
-    url: "mailto:btzz342iv@mozmail.com"
-  - name: github
-    url: "https://github.com/tuchaVshortah"
-  - name: keybase
-    url: "https://keybase.io/nurkanat"
-  - name: "key"
-    url: "https://keybase.io/nurkanat/pgp_keys.asc"
-  - name: linkedin
-    url: "https://www.linkedin.com/in/nurkanat-baisenkul/"
+    - name: email
+      url: "mailto:nurkanatbaisenkul@outlook.com"
+    - name: github
+      url: "https://github.com/tuchaVshortah"
+    - name: keybase
+      url: "https://keybase.io/nurkanat"
+    - name: "key"
+      url: "https://keybase.io/nurkanat/pgp_keys.asc"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/nurkanat-baisenkul/"
   env: production
 environments:
   production:

@@ -12,14 +12,11 @@ alt = "Diving"
 relative = false
 +++
 
-
 # About me
 
 My name is Nurkanat and I am 20 years old. I am a developer with a passion for protecting digital assets and systems from cyber threats. I have a certification in "Malware Analysis and Introduction to Assembly Language" from IBM, and "Google Cybersecurity Professional Certificate" from Google.
 
 <!-- ![Diving](/assets/images/diving.jpg#center) -->
-
-
 
 # Vision & Mission
 
@@ -31,23 +28,22 @@ I like WEB&Cloud development and setting up DevOps workflows. This is mainly bec
 
 I find my passion in creating and securing reliable systems. My mission is to develop convenient and powerful software on durable and industry leading platforms.
 
-
-
 # Educational background
 
 ## Astana IT University (2021-2024)
+
 1. Bachelor of Cybersecurity
 2. Department of Informational Security
 
 ## Suleyman Demirel University (2024 - Today)
+
 1. Master of Computer Science
 2. Faculty of Engineering and Natural Sciences
-
-
 
 # Work experience
 
 ## 2021 (3 months)
+
 **Development Bank of Kazakhstan** - Cybersecurity Engineer
 
 <!-- ![DBK logo](/assets/images/dbk_logo.png) -->
@@ -63,6 +59,7 @@ I worked as a cybersecurity engineer at Development Bank of Kazakhstan (DBK), wh
 [arp-spoofing-detector-rs](https://github.com/tuchaVshortah/arp-spoofing-detector-rs)
 
 ## 2024 (6 months)
+
 **Akhmet Yassawi University** - IT Specialist
 
 <!-- ![AYU logo](/assets/images/ayu_logo.png) -->
@@ -74,6 +71,7 @@ I worked as a cybersecurity engineer at Development Bank of Kazakhstan (DBK), wh
 My responsibilties included managing employee accounts and sites. I uploaded the necessary information to the sites and updated them. I helped the staff to fill out, set up and regain access to their work accounts if they lost it.
 
 ## 2024 (5 months)
+
 **Epam Systems** - Student Cloud&DevOps Trainee (Apprenticeship)
 
 <!-- ![Epam logo](/assets/images/epam_logo.png) -->
@@ -90,8 +88,6 @@ The Bootcamp was both challenging and incredibly interesting. I learned many new
 
 I would like to thank the folks at Epam for organizing this amazing Bootcamp.
 
-
-
 # Personal achievements
 
 ## Almaty Marathon 2024
@@ -104,8 +100,6 @@ I would like to thank the folks at Epam for organizing this amazing Bootcamp.
 
 {{< figure src="/assets/images/medal_almaty_marathon_2024.jpg" alt="Almaty Marathon 2024 Medal" width="75%" >}}
 
-
-
 # My goals
 
 1. I would like to expand my knowledge in the area of cloud technologies and DevOps, as well as contribute to the development of various cloud-based or on-premises services.
@@ -117,6 +111,10 @@ I would like to thank the folks at Epam for organizing this amazing Bootcamp.
 - [Google Cybersecurity Professional](https://www.coursera.org/account/accomplishments/specialization/certificate/K9HHGTC2J6UH) -> [PDF](/assets/pdfs/Google_Cybersecurity_Professional.pdf)
 
 - [Malware Analysis and Introduction to Assembly Language](https://www.coursera.org/account/accomplishments/certificate/EQWK4YF9LA3B) -> [PDF](/assets/pdfs/Malware_Analysis_and_Introduction_to_Assembly.pdf)
+
+- [Introduction to Next.js, v3](https://static.frontendmasters.com/ud/c/f052e27ca5/IUcTZCIWvj/next-js-v3.pdf) -> [PDF](/assets/pdfs/next-js-v3-dark.pdf)
+
+- [Build an AI-Powered Fullstack Next.js App, v3](https://static.frontendmasters.com/ud/c/f052e27ca5/JZZwrJFlUh/fullstack-app-next-v3.pdf) -> [PDF](/assets/pdfs/fullstack-app-next-v3-dark.pdf)
 
 - [Career Essentials in Cybersecurity by Microsoft and LinkedIn](https://www.linkedin.com/learning/certificates/2d3ef827f04453926e830bde0667c0549a7d1d41a61c4c59d54c5fdac6da8a25?u=2113185) -> [PDF](/assets/images/Career_Essentials_in_Cybersecurity_by_Microsoft_and_LinkedIn.jpg)
 

@@ -70,7 +70,7 @@ I worked as a cybersecurity engineer at Development Bank of Kazakhstan (DBK), wh
 
 My responsibilties included managing employee accounts and sites. I uploaded the necessary information to the sites and updated them. I helped the staff to fill out, set up and regain access to their work accounts if they lost it.
 
-## 2024 (5 months)
+## 2024 (8 months)
 
 **Epam Systems** - Student Cloud&DevOps Trainee (Apprenticeship)
 

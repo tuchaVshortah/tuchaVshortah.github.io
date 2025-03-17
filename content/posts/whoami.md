@@ -88,6 +88,18 @@ The Bootcamp was both challenging and incredibly interesting. I learned many new
 
 I would like to thank the folks at Epam for organizing this amazing Bootcamp.
 
+## 2025
+
+**Institute of Space Engineering and Technologies LLP** - DevOps / First Category Engineer (Full-Time)
+
+{{< embedImage src="/assets/images/istt_logo.jpg" alt="ISTT logo" maxWidth="25vw" maxHeight="25vh" >}}
+
+**What did I do?**
+
+I am working :)
+Check my resume to learn more. In short, I am mainly setting up CI/CD pipelines with GitLab and managing runners and repositories. I have a lot of responsibilities on administering PostgreSQL and RabbitMQ. My job involves some bureaucracy
+that usually comes in the form of paperwork on cybersecurity and stuff. I plan to run k8s and containerize the whole infrastructure of this place in the future.
+
 # Personal achievements
 
 ## Almaty Marathon 2024

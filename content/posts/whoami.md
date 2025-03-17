@@ -110,20 +110,3 @@ I would like to thank the folks at Epam for organizing this amazing Bootcamp.
 
 - [Google Cybersecurity Professional](https://www.coursera.org/account/accomplishments/specialization/certificate/K9HHGTC2J6UH) -> [PDF](/assets/pdfs/Google_Cybersecurity_Professional.pdf)
 
-- [Malware Analysis and Introduction to Assembly Language](https://www.coursera.org/account/accomplishments/certificate/EQWK4YF9LA3B) -> [PDF](/assets/pdfs/Malware_Analysis_and_Introduction_to_Assembly.pdf)
-
-- [Introduction to Next.js, v3](https://static.frontendmasters.com/ud/c/f052e27ca5/IUcTZCIWvj/next-js-v3.pdf) -> [PDF](/assets/pdfs/next-js-v3-dark.pdf)
-
-- [Build an AI-Powered Fullstack Next.js App, v3](https://static.frontendmasters.com/ud/c/f052e27ca5/JZZwrJFlUh/fullstack-app-next-v3.pdf) -> [PDF](/assets/pdfs/fullstack-app-next-v3-dark.pdf)
-
-- [Career Essentials in Cybersecurity by Microsoft and LinkedIn](https://www.linkedin.com/learning/certificates/2d3ef827f04453926e830bde0667c0549a7d1d41a61c4c59d54c5fdac6da8a25?u=2113185) -> [PDF](/assets/images/Career_Essentials_in_Cybersecurity_by_Microsoft_and_LinkedIn.jpg)
-
-- AWS Cloud Practitioner Essentials -> [PDF](/assets/pdfs/AWS_Cloud_Practitioner_Essentials.pdf)
-
-- IELTS Band 7.5 -> [JPG](/assets/images/IELTS_Certificate_Band_7.5.jpg)
-
-- [Agile Foundations](https://www.linkedin.com/learning/certificates/222be0f8dd204515e495f2725746aeb9f840c0bf925580dd2909adb77c405d08?u=2113185)
-
-- [Software Design: From Requirements to Release](https://www.linkedin.com/learning/certificates/fa9700bfd8c47a73a640691b6f0c5d81f36a591294f92ae37ba6350c73115d64?u=2113185)
-
-- [Software Development Life Cycle (SDLC)](https://www.linkedin.com/learning/certificates/9fde0275ae8137a5cce67039b5753ff311b17fbb7102a7a6a94ef68d995c7394?u=2113185)

@@ -47,14 +47,14 @@ params:
   # comments: false
   author: Nurkanat Baisenkul
   contact:
-    email: "nurkanatbaisenkul@outlook.com"
+    email: "nurkanat@nurkanatb.kz"
   homeInfoParams:
     Title: "Hello"
     Content: >
       👋 Welcome to my blog. Here I share my thoughts and ideas.
   socialIcons:
     - name: email
-      url: "mailto:nurkanatbaisenkul@outlook.com"
+      url: "mailto:nurkanat@nurkanatb.kz"
     - name: github
       url: "https://github.com/tuchaVshortah"
     - name: keybase

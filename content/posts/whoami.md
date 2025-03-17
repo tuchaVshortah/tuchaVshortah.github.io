@@ -70,7 +70,7 @@ I worked as a cybersecurity engineer at Development Bank of Kazakhstan (DBK), wh
 
 My responsibilties included managing employee accounts and sites. I uploaded the necessary information to the sites and updated them. I helped the staff to fill out, set up and regain access to their work accounts if they lost it.
 
-## 2024 (5 months)
+## 2024 (8 months)
 
 **Epam Systems** - Student Cloud&DevOps Trainee (Apprenticeship)
 
@@ -87,6 +87,18 @@ I successfully completed the course and moved on to the next one, the DevOps Boo
 The Bootcamp was both challenging and incredibly interesting. I learned many new skills and worked with tools and software that I was unfamiliar with before. By the end of the bootcamp, we also had a few sessions on Gen AI, Agile, and SDLC.. To summarize, by the end of the course, I had learned how to create Docker images, create Kubernetes clusters with persistent storage and various features such as DaemonSets and StatefulSets. I also learned how to use AWS resources like EC2, ECS, EKS, SNS, SQS, SSM, and KMS. I was able to write and deploy CloudFormation stacks and create resources in the cloud using Terraform. In addition, I learned many other things during the Bootcamp.
 
 I would like to thank the folks at Epam for organizing this amazing Bootcamp.
+
+## 2025
+
+**Institute of Space Engineering and Technologies LLP** - DevOps / First Category Engineer (Full-Time)
+
+{{< embedImage src="/assets/images/istt_logo.jpg" alt="ISTT logo" maxWidth="25vw" maxHeight="25vh" >}}
+
+**What did I do?**
+
+I am working :)
+Check my resume to learn more. In short, I am mainly setting up CI/CD pipelines with GitLab and managing runners and repositories. I have a lot of responsibilities on administering PostgreSQL and RabbitMQ. My job involves some bureaucracy
+that usually comes in the form of paperwork on cybersecurity and stuff. I plan to run k8s and containerize the whole infrastructure of this place in the future.
 
 # Personal achievements
 
@@ -110,20 +122,3 @@ I would like to thank the folks at Epam for organizing this amazing Bootcamp.
 
 - [Google Cybersecurity Professional](https://www.coursera.org/account/accomplishments/specialization/certificate/K9HHGTC2J6UH) -> [PDF](/assets/pdfs/Google_Cybersecurity_Professional.pdf)
 
-- [Malware Analysis and Introduction to Assembly Language](https://www.coursera.org/account/accomplishments/certificate/EQWK4YF9LA3B) -> [PDF](/assets/pdfs/Malware_Analysis_and_Introduction_to_Assembly.pdf)
-
-- [Introduction to Next.js, v3](https://static.frontendmasters.com/ud/c/f052e27ca5/IUcTZCIWvj/next-js-v3.pdf) -> [PDF](/assets/pdfs/next-js-v3-dark.pdf)
-
-- [Build an AI-Powered Fullstack Next.js App, v3](https://static.frontendmasters.com/ud/c/f052e27ca5/JZZwrJFlUh/fullstack-app-next-v3.pdf) -> [PDF](/assets/pdfs/fullstack-app-next-v3-dark.pdf)
-
-- [Career Essentials in Cybersecurity by Microsoft and LinkedIn](https://www.linkedin.com/learning/certificates/2d3ef827f04453926e830bde0667c0549a7d1d41a61c4c59d54c5fdac6da8a25?u=2113185) -> [PDF](/assets/images/Career_Essentials_in_Cybersecurity_by_Microsoft_and_LinkedIn.jpg)
-
-- AWS Cloud Practitioner Essentials -> [PDF](/assets/pdfs/AWS_Cloud_Practitioner_Essentials.pdf)
-
-- IELTS Band 7.5 -> [JPG](/assets/images/IELTS_Certificate_Band_7.5.jpg)
-
-- [Agile Foundations](https://www.linkedin.com/learning/certificates/222be0f8dd204515e495f2725746aeb9f840c0bf925580dd2909adb77c405d08?u=2113185)
-
-- [Software Design: From Requirements to Release](https://www.linkedin.com/learning/certificates/fa9700bfd8c47a73a640691b6f0c5d81f36a591294f92ae37ba6350c73115d64?u=2113185)
-
-- [Software Development Life Cycle (SDLC)](https://www.linkedin.com/learning/certificates/9fde0275ae8137a5cce67039b5753ff311b17fbb7102a7a6a94ef68d995c7394?u=2113185)

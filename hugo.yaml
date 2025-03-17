@@ -47,14 +47,14 @@ params:
   # comments: false
   author: Nurkanat Baisenkul
   contact:
-    email: "nurkanatbaisenkul@outlook.com"
+    email: "nurkanat@nurkanatb.kz"
   homeInfoParams:
     Title: "Hello"
     Content: >
       👋 Welcome to my blog. Here I share my thoughts and ideas.
   socialIcons:
     - name: email
-      url: "mailto:nurkanatbaisenkul@outlook.com"
+      url: "mailto:nurkanat@nurkanatb.kz"
     - name: github
       url: "https://github.com/tuchaVshortah"
     - name: keybase
@@ -73,34 +73,41 @@ environments:
 menu:
   main:
     - weight: 10
+      identifier: Resume
+      pre: ""
+      post: ""
+      name: Resume
+      url: /assets/pdfs/Resume_v1.2.pdf
+      title: "My Resume"
+    - weight: 20
       identifier: whoami
       pre: ""
       post: ""
       name: whoami
       url: /posts/whoami/
       title: "Who am I? | About me"
-    - weight: 20
+    - weight: 30
       identifier: posts
       pre: ""
       post: ""
       name: Posts
       url: /posts/
       title: ""
-    - weight: 30
+    - weight: 40
       identifier: tags
       pre: ""
       post: ""
       name: Tags
       url: /tags/
       title: ""
-    - weight: 40
+    - weight: 50
       identifier: categories
       pre: ""
       post: ""
       name: Categories
       url: /categories/
       title: ""
-    - weight: 50
+    - weight: 60
       identifier: search
       pre: ""
       post: ""

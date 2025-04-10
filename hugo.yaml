@@ -77,7 +77,7 @@ menu:
       pre: ""
       post: ""
       name: Resume
-      url: /assets/pdfs/resume_2025_v1.0.pdf
+      url: /assets/pdfs/resume_2025_v1.0.1.pdf
       title: "My Resume"
     - weight: 20
       identifier: whoami

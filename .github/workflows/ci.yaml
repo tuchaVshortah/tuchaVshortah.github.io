@@ -83,6 +83,7 @@ jobs:
 
       # Build Hugo site
       - name: Build with Hugo
+        working-directory: ./blog
         env:
           HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
           HUGO_ENVIRONMENT: production

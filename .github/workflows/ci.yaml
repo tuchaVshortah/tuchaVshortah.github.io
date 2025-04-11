@@ -65,6 +65,9 @@ jobs:
         working-directory: ./portfolio
         run: npm ci
 
+      - name: Create a Directory for Build Artifacts
+        run: mkdir public
+
       # Build Next.js project
       - name: Build Next.js
         working-directory: ./portfolio

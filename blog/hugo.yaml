@@ -1,5 +1,4 @@
-baseURL: http://tuchavshortah.github.io/blog
-languageCode: en-us
+baseURL: https://nurkanatb.kz/blog
 theme: papermod-l50
 title: Nurkanat's Blog
 publishDir: out/

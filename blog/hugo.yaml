@@ -2,7 +2,7 @@ baseURL: http://tuchavshortah.github.io/blog
 languageCode: en-us
 theme: papermod-l50
 title: Nurkanat's Blog
-publishDir: public/blog
+publishDir: out/
 taxonomies:
   tag: tags
   category: categories

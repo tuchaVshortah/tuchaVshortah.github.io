@@ -13,75 +13,39 @@ body {
   }
 }
 
-@layer base {
-  :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
-
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
-
-    --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
-
-    --primary: 173 80% 40%;
-    --primary-foreground: 210 40% 98%;
-
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
-
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
-
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
-
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
-
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 173 80% 40%;
-
-    --radius: 0.5rem;
-  }
-
-  .dark {
-    --background: 222.2 84% 4.9%;
-    --foreground: 210 40% 98%;
-
-    --card: 222.2 84% 4.9%;
-    --card-foreground: 210 40% 98%;
-
-    --popover: 222.2 84% 4.9%;
-    --popover-foreground: 210 40% 98%;
-
-    --primary: 173 70% 50%;
-    --primary-foreground: 222.2 47.4% 11.2%;
-
-    --secondary: 217.2 32.6% 17.5%;
-    --secondary-foreground: 210 40% 98%;
-
-    --muted: 217.2 32.6% 17.5%;
-    --muted-foreground: 215 20.2% 65.1%;
-
-    --accent: 217.2 32.6% 17.5%;
-    --accent-foreground: 210 40% 98%;
-
-    --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 210 40% 98%;
-
-    --border: 217.2 32.6% 17.5%;
-    --input: 217.2 32.6% 17.5%;
-    --ring: 173 70% 50%;
-  }
+/* Simple dark mode variables without custom Tailwind utilities */
+:root {
+  --background-color: #ffffff;
+  --text-color: #0f172a;
+  --card-background: #ffffff;
+  --card-text: #0f172a;
+  --primary-color: #14b8a6;
+  --primary-text: #ffffff;
+  --secondary-color: #f1f5f9;
+  --secondary-text: #1e293b;
+  --muted-color: #f1f5f9;
+  --muted-text: #64748b;
+  --border-color: #e2e8f0;
 }
 
-@layer base {
-  /* Removed the problematic line: * { @apply border-border; } */
-  body {
-    @apply bg-background text-foreground;
-  }
+.dark {
+  --background-color: #0f172a;
+  --text-color: #f8fafc;
+  --card-background: #0f172a;
+  --card-text: #f8fafc;
+  --primary-color: #2dd4bf;
+  --primary-text: #0f172a;
+  --secondary-color: #1e293b;
+  --secondary-text: #f8fafc;
+  --muted-color: #1e293b;
+  --muted-text: #94a3b8;
+  --border-color: #1e293b;
+}
+
+/* Basic styles using CSS variables instead of Tailwind utilities */
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
 }
 
 /* Add this for smooth theme transitions */

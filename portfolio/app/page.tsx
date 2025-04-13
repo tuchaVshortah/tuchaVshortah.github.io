@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react"
 import { motion, AnimatePresence } from "framer-motion"
 import { Cloud, Code, Database, Github, Linkedin, Mail, Menu, Server, X } from "lucide-react"
-import { Button } from "../components/ui/button.tsx"
+import { Button } from "@/components/ui/button"
 import Image from 'next/image'
 
 export default function Home() {

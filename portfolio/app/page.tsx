@@ -1,6 +1,7 @@
 "use client"
 
 import { useState, useEffect } from "react"
+import { useTheme } from "next-themes"
 import { motion, AnimatePresence } from "framer-motion"
 import { Cloud, Code, Database, Github, Linkedin, Mail, Menu, Server, X } from "lucide-react"
 import { Button } from "@/components/ui/button"
@@ -9,26 +10,12 @@ import Image from "next/image"
 export default function Home() {
   const [activeSection, setActiveSection] = useState("home")
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
-  const [darkMode, setDarkMode] = useState(false)
-
-  const toggleDarkMode = () => {
-    if (document.documentElement.classList.contains("dark")) {
-      document.documentElement.classList.remove("dark")
-      setDarkMode(false)
-    } else {
-      document.documentElement.classList.add("dark")
-      setDarkMode(true)
-    }
-  }
+  const [mounted, setMounted] = useState(false)
+  const { theme, setTheme } = useTheme()
+  const [isTransitioning, setIsTransitioning] = useState(false)
 
   useEffect(() => {
-    // Check if dark mode is already applied
-    if (document.documentElement.classList.contains("dark")) {
-      setDarkMode(true)
-    } else if (window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches) {
-      document.documentElement.classList.add("dark")
-      setDarkMode(true)
-    }
+    setMounted(true)
 
     // Handle scroll to update active section
     const handleScroll = () => {
@@ -53,6 +40,26 @@ export default function Home() {
     return () => window.removeEventListener("scroll", handleScroll)
   }, [])
 
+  // Enhanced toggle with smooth transition
+  const toggleTheme = () => {
+    if (!mounted) return
+
+    // Start transition
+    setIsTransitioning(true)
+
+    // Apply transition class to body for smooth animation
+    document.body.classList.add("theme-transition")
+
+    // Toggle theme
+    setTheme(theme === "dark" ? "light" : "dark")
+
+    // Remove transition class after animation completes
+    setTimeout(() => {
+      document.body.classList.remove("theme-transition")
+      setIsTransitioning(false)
+    }, 500) // Match this with your CSS transition duration
+  }
+
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId)
     if (element) {
@@ -68,11 +75,31 @@ export default function Home() {
     }
   }
 
+  // Render theme toggle button only after mounting to prevent hydration mismatch
+  const renderThemeToggle = () => {
+    if (!mounted) return null
+
+    return (
+      <button
+        onClick={toggleTheme}
+        disabled={isTransitioning}
+        className="p-2 rounded-full bg-gray-100 dark:bg-gray-700 text-gray-800 dark:text-gray-200 transition-colors duration-300"
+      >
+        {theme === "dark" ? "🌞" : "🌙"}
+      </button>
+    )
+  }
+
+  // If not mounted yet, show a placeholder to avoid layout shift
+  if (!mounted) {
+    return <div className="min-h-screen bg-gray-50"></div>
+  }
+
   return (
     <div>
-      <div className="min-h-screen bg-gray-50 dark:bg-gray-900 transition-colors duration-300">
+      <div className="min-h-screen bg-gray-50 dark:bg-gray-900 transition-colors duration-500">
         {/* Header */}
-        <header className="fixed w-full bg-white/80 dark:bg-gray-800/80 backdrop-blur-sm z-50 shadow-sm">
+        <header className="fixed w-full bg-white/80 dark:bg-gray-800/80 backdrop-blur-sm z-50 shadow-sm transition-colors duration-500">
           <div className="container mx-auto px-4 py-4 flex justify-between items-center">
             <motion.div
               initial={{ opacity: 0, x: -20 }}
@@ -80,8 +107,10 @@ export default function Home() {
               transition={{ duration: 0.5 }}
               className="flex items-center space-x-2"
             >
-              <Server className="h-6 w-6 text-teal-600 dark:text-teal-400" />
-              <span className="text-xl font-bold text-gray-800 dark:text-white">DevOps Master</span>
+              <Server className="h-6 w-6 text-teal-600 dark:text-teal-400 transition-colors duration-500" />
+              <span className="text-xl font-bold text-gray-800 dark:text-white transition-colors duration-500">
+                DevOps Master
+              </span>
             </motion.div>
 
             {/* Desktop Navigation */}
@@ -92,7 +121,7 @@ export default function Home() {
                   whileHover={{ y: -2 }}
                   whileTap={{ y: 0 }}
                   onClick={() => scrollToSection(item)}
-                  className={`capitalize text-sm font-medium ${
+                  className={`capitalize text-sm font-medium transition-colors duration-500 ${
                     activeSection === item
                       ? "text-teal-600 dark:text-teal-400"
                       : "text-gray-600 dark:text-gray-300 hover:text-teal-600 dark:hover:text-teal-400"
@@ -105,29 +134,19 @@ export default function Home() {
                 whileHover={{ y: -2 }}
                 whileTap={{ y: 0 }}
                 onClick={() => (window.location.href = "/blog")}
-                className="text-sm font-medium text-gray-600 dark:text-gray-300 hover:text-teal-600 dark:hover:text-teal-400"
+                className="text-sm font-medium text-gray-600 dark:text-gray-300 hover:text-teal-600 dark:hover:text-teal-400 transition-colors duration-500"
               >
                 Blog
               </motion.button>
-              <button
-                onClick={toggleDarkMode}
-                className="p-2 rounded-full bg-gray-100 dark:bg-gray-700 text-gray-800 dark:text-gray-200"
-              >
-                {darkMode ? "🌞" : "🌙"}
-              </button>
+              {renderThemeToggle()}
             </nav>
 
             {/* Mobile Menu Button */}
             <div className="md:hidden flex items-center">
-              <button
-                onClick={toggleDarkMode}
-                className="p-2 mr-2 rounded-full bg-gray-100 dark:bg-gray-700 text-gray-800 dark:text-gray-200"
-              >
-                {darkMode ? "🌞" : "🌙"}
-              </button>
+              {renderThemeToggle()}
               <button
                 onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-                className="p-2 rounded-md text-gray-600 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700"
+                className="p-2 ml-2 rounded-md text-gray-600 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors duration-500"
               >
                 {mobileMenuOpen ? <X /> : <Menu />}
               </button>
@@ -141,7 +160,7 @@ export default function Home() {
                 initial={{ opacity: 0, height: 0 }}
                 animate={{ opacity: 1, height: "auto" }}
                 exit={{ opacity: 0, height: 0 }}
-                className="md:hidden bg-white dark:bg-gray-800 border-t dark:border-gray-700"
+                className="md:hidden bg-white dark:bg-gray-800 border-t dark:border-gray-700 transition-colors duration-500"
               >
                 <div className="container mx-auto px-4 py-2">
                   <div className="flex flex-col space-y-3 py-3">
@@ -149,7 +168,7 @@ export default function Home() {
                       <button
                         key={item}
                         onClick={() => scrollToSection(item)}
-                        className={`capitalize text-sm font-medium py-2 px-3 rounded-md ${
+                        className={`capitalize text-sm font-medium py-2 px-3 rounded-md transition-colors duration-500 ${
                           activeSection === item
                             ? "bg-teal-50 dark:bg-teal-900/30 text-teal-600 dark:text-teal-400"
                             : "text-gray-600 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700"
@@ -160,7 +179,7 @@ export default function Home() {
                     ))}
                     <button
                       onClick={() => (window.location.href = "/blog")}
-                      className="text-sm font-medium py-2 px-3 rounded-md text-gray-600 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700"
+                      className="text-sm font-medium py-2 px-3 rounded-md text-gray-600 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700 transition-colors duration-500"
                     >
                       Blog
                     </button>
@@ -171,6 +190,7 @@ export default function Home() {
           </AnimatePresence>
         </header>
 
+        {/* Rest of your component with transition-colors added */}
         <main className="container mx-auto px-4 pt-24 pb-12">
           <div className="absolute inset-0 -z-10 overflow-hidden">
             <motion.div
@@ -526,7 +546,7 @@ export default function Home() {
                       }}
                       whileHover={{
                         y: -5,
-                        backgroundColor: darkMode ? "rgb(20, 184, 166, 0.1)" : "rgb(20, 184, 166, 0.05)",
+                        backgroundColor: theme === "dark" ? "rgb(20, 184, 166, 0.1)" : "rgb(20, 184, 166, 0.05)",
                       }}
                       className="bg-gray-50 dark:bg-gray-700 rounded-lg p-4 text-center"
                     >

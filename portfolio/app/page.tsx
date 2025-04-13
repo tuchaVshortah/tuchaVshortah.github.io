@@ -4,16 +4,29 @@ import { useState, useEffect } from "react"
 import { motion, AnimatePresence } from "framer-motion"
 import { Cloud, Code, Database, Github, Linkedin, Mail, Menu, Server, X } from "lucide-react"
 import { Button } from "@/components/ui/button"
-import Image from 'next/image'
+import Image from "next/image"
 
 export default function Home() {
   const [activeSection, setActiveSection] = useState("home")
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
   const [darkMode, setDarkMode] = useState(false)
 
+  const toggleDarkMode = () => {
+    if (document.documentElement.classList.contains("dark")) {
+      document.documentElement.classList.remove("dark")
+      setDarkMode(false)
+    } else {
+      document.documentElement.classList.add("dark")
+      setDarkMode(true)
+    }
+  }
+
   useEffect(() => {
-    // Check user preference for dark mode
-    if (window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches) {
+    // Check if dark mode is already applied
+    if (document.documentElement.classList.contains("dark")) {
+      setDarkMode(true)
+    } else if (window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches) {
+      document.documentElement.classList.add("dark")
       setDarkMode(true)
     }
 
@@ -40,24 +53,23 @@ export default function Home() {
     return () => window.removeEventListener("scroll", handleScroll)
   }, [])
 
-  const toggleDarkMode = () => {
-    setDarkMode(!darkMode)
-  }
-
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId)
     if (element) {
-      window.scrollTo({
-        top: element.offsetTop - 80,
-        behavior: "smooth",
-      })
+      // Use setTimeout to ensure the mobile menu has time to close
+      setTimeout(() => {
+        window.scrollTo({
+          top: element.offsetTop - 80,
+          behavior: "smooth",
+        })
+      }, 10)
       setActiveSection(sectionId)
       setMobileMenuOpen(false)
     }
   }
 
   return (
-    <div className={darkMode ? "dark" : ""}>
+    <div>
       <div className="min-h-screen bg-gray-50 dark:bg-gray-900 transition-colors duration-300">
         {/* Header */}
         <header className="fixed w-full bg-white/80 dark:bg-gray-800/80 backdrop-blur-sm z-50 shadow-sm">
@@ -89,6 +101,14 @@ export default function Home() {
                   {item}
                 </motion.button>
               ))}
+              <motion.button
+                whileHover={{ y: -2 }}
+                whileTap={{ y: 0 }}
+                onClick={() => (window.location.href = "/blog")}
+                className="text-sm font-medium text-gray-600 dark:text-gray-300 hover:text-teal-600 dark:hover:text-teal-400"
+              >
+                Blog
+              </motion.button>
               <button
                 onClick={toggleDarkMode}
                 className="p-2 rounded-full bg-gray-100 dark:bg-gray-700 text-gray-800 dark:text-gray-200"
@@ -138,6 +158,12 @@ export default function Home() {
                         {item}
                       </button>
                     ))}
+                    <button
+                      onClick={() => (window.location.href = "/blog")}
+                      className="text-sm font-medium py-2 px-3 rounded-md text-gray-600 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700"
+                    >
+                      Blog
+                    </button>
                   </div>
                 </div>
               </motion.div>
@@ -253,17 +279,7 @@ export default function Home() {
               viewport={{ once: true, margin: "-100px" }}
               className="max-w-3xl mx-auto"
             >
-              <div className="overflow-hidden">
-                <motion.h2
-                  initial={{ y: 50, opacity: 0 }}
-                  whileInView={{ y: 0, opacity: 1 }}
-                  transition={{ duration: 0.8, ease: "easeOut" }}
-                  viewport={{ once: true }}
-                  className="text-3xl font-bold text-gray-800 dark:text-white mb-2"
-                >
-                  About Me
-                </motion.h2>
-              </div>
+              <h2 className="text-3xl font-bold text-gray-800 dark:text-white mb-2">About Me</h2>
               <div className="w-20 h-1 bg-teal-600 dark:bg-teal-400 mb-6"></div>
 
               <div className="bg-white dark:bg-gray-800 rounded-xl shadow-md p-6 md:p-8">
@@ -314,17 +330,7 @@ export default function Home() {
               transition={{ duration: 0.5 }}
               viewport={{ once: true, margin: "-100px" }}
             >
-              <div className="overflow-hidden">
-                <motion.h2
-                  initial={{ y: 50, opacity: 0 }}
-                  whileInView={{ y: 0, opacity: 1 }}
-                  transition={{ duration: 0.8, ease: "easeOut" }}
-                  viewport={{ once: true }}
-                  className="text-3xl font-bold text-gray-800 dark:text-white mb-2"
-                >
-                  Work Experience
-                </motion.h2>
-              </div>
+              <h2 className="text-3xl font-bold text-gray-800 dark:text-white mb-2">Work Experience</h2>
               <div className="w-20 h-1 bg-teal-600 dark:bg-teal-400 mb-6"></div>
 
               <motion.div
@@ -415,17 +421,7 @@ export default function Home() {
               transition={{ duration: 0.5 }}
               viewport={{ once: true, margin: "-100px" }}
             >
-              <div className="overflow-hidden">
-                <motion.h2
-                  initial={{ y: 50, opacity: 0 }}
-                  whileInView={{ y: 0, opacity: 1 }}
-                  transition={{ duration: 0.8, ease: "easeOut" }}
-                  viewport={{ once: true }}
-                  className="text-3xl font-bold text-gray-800 dark:text-white mb-2"
-                >
-                  Technical Skills
-                </motion.h2>
-              </div>
+              <h2 className="text-3xl font-bold text-gray-800 dark:text-white mb-2">Technical Skills</h2>
               <div className="w-20 h-1 bg-teal-600 dark:bg-teal-400 mb-6"></div>
 
               <div className="grid md:grid-cols-2 gap-8">
@@ -551,17 +547,7 @@ export default function Home() {
               viewport={{ once: true, margin: "-100px" }}
               className="max-w-3xl mx-auto"
             >
-              <div className="overflow-hidden">
-                <motion.h2
-                  initial={{ y: 50, opacity: 0 }}
-                  whileInView={{ y: 0, opacity: 1 }}
-                  transition={{ duration: 0.8, ease: "easeOut" }}
-                  viewport={{ once: true }}
-                  className="text-3xl font-bold text-gray-800 dark:text-white mb-2"
-                >
-                  Get In Touch
-                </motion.h2>
-              </div>
+              <h2 className="text-3xl font-bold text-gray-800 dark:text-white mb-2">Get In Touch</h2>
               <div className="w-20 h-1 bg-teal-600 dark:bg-teal-400 mb-6"></div>
 
               <div className="bg-white dark:bg-gray-800 rounded-xl shadow-md p-6 md:p-8">

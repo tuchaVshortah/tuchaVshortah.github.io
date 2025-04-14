@@ -17,7 +17,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
-        <Script id="theme-script" strategy="beforeInteractive" src="/app/theme-script.js" />
+        <Script id="theme-script" strategy="beforeInteractive" src="/theme-script.js" />
       </head>
       <body>
         <ThemeProvider>{children}</ThemeProvider>

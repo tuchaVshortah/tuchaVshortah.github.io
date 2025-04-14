@@ -75,7 +75,7 @@ export default function Home() {
             className="flex items-center space-x-2"
           >
             <Server className="h-6 w-6 text-teal-600 dark:text-teal-400" />
-            <span className="text-xl font-bold text-gray-800 dark:text-white">DevOps Master</span>
+            <span className="text-xl font-bold text-gray-800 dark:text-white">Nurkanat Baisenkul</span>
           </motion.div>
 
           {/* Desktop Navigation */}
@@ -228,14 +228,14 @@ export default function Home() {
                   repeatType: "reverse",
                   ease: "easeInOut",
                 }}
-                className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-teal-600 dark:border-teal-400 shadow-xl"
+                className="flex items-center justify-center relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-teal-600 dark:border-teal-400 shadow-xl"
               >
                 <img
                   src="/diving.jpg"
                   alt="My diving picture"
-                  width={320}
-                  height={320}
-                  className="object-cover"
+                  width={360}
+                  height={360}
+                  className="w-full h-full object-cover object-[25%_center]"
                 />
               </motion.div>
             </motion.div>
@@ -283,14 +283,14 @@ export default function Home() {
                   <h3 className="text-xl font-semibold text-gray-800 dark:text-white mb-4">Education</h3>
                   <div className="space-y-4">
                     <div className="border-l-2 border-teal-600 dark:border-teal-400 pl-4">
-                      <p className="text-sm text-teal-600 dark:text-teal-400">2020 - 2022</p>
-                      <h4 className="font-medium text-gray-800 dark:text-white">Master's in Computer Science</h4>
-                      <p className="text-gray-600 dark:text-gray-300">University of Technology</p>
+                      <p className="text-sm text-teal-600 dark:text-teal-400">2024 - 2026</p>
+                      <h4 className="font-medium text-gray-800 dark:text-white">Master's Computer Science</h4>
+                      <p className="text-gray-600 dark:text-gray-300">Suleyman Demirel University</p>
                     </div>
                     <div className="border-l-2 border-teal-600 dark:border-teal-400 pl-4">
-                      <p className="text-sm text-teal-600 dark:text-teal-400">2016 - 2020</p>
-                      <h4 className="font-medium text-gray-800 dark:text-white">Bachelor's in Computer Engineering</h4>
-                      <p className="text-gray-600 dark:text-gray-300">State University</p>
+                      <p className="text-sm text-teal-600 dark:text-teal-400">2021 - 2024</p>
+                      <h4 className="font-medium text-gray-800 dark:text-white">Bachelor's Cybersecurity</h4>
+                      <p className="text-gray-600 dark:text-gray-300">Astana IT University</p>
                     </div>
                   </div>
                 </div>
@@ -343,28 +343,49 @@ export default function Home() {
             >
               {[
                 {
-                  title: "Senior DevOps Engineer",
-                  company: "Tech Solutions Inc.",
-                  period: "2021 - Present",
-                  description:
-                    "Led the migration to Kubernetes, reducing deployment time by 70%. Implemented GitOps workflow with ArgoCD and Flux. Designed and maintained AWS infrastructure using Terraform.",
-                  technologies: ["AWS", "Kubernetes", "Terraform", "ArgoCD", "GitHub Actions"],
-                },
-                {
                   title: "DevOps Engineer",
-                  company: "Cloud Systems Ltd.",
-                  period: "2019 - 2021",
+                  company: "Institute of Space Engineering and Technologies LLP",
+                  period: "2025",
                   description:
-                    "Designed and implemented CI/CD pipelines using Jenkins and GitLab CI. Containerized legacy applications and deployed them to EKS. Automated infrastructure provisioning with CloudFormation.",
-                  technologies: ["AWS", "Docker", "Jenkins", "CloudFormation", "EKS"],
+                    "Configured advanced PostgreSQL replication and logging. Wrote a custom passwordcheck module that enforces password policies. \
+                    Set up RabbitMQ clusters and replication for high availability. \
+                    Set up GitLab on-premise and Docker runners. Created CI/CD pipelines to auto install dependencies, lint, build, test (SAST) and deploy. \
+                    Set up Hashicorp Vault for secure secret storage. Configured path policies and roles. Managed SSL certificates through Vault PKI. \
+                    BIND9 DNS server administration. \
+                    Linux administration. Management of permissions and entities (users, groups). Secure configuration of remote access \
+                    services such as SSH and FTP. Miscellaneous stuff such as port management, crontabs.",
+                  technologies: ["Linux", "Bind9", "Docker", "GitLab CI", "PostgreSQL", "RabbitMQ", "Vault"],
                 },
                 {
-                  title: "Systems Administrator",
-                  company: "Data Networks Corp.",
-                  period: "2017 - 2019",
+                  title: "Cloud&DevOps Student Trainee",
+                  company: "Epam Kazakhstan",
+                  period: "2024 - 2025",
                   description:
-                    "Managed on-premises infrastructure and began cloud migration initiatives. Implemented monitoring solutions with Prometheus and Grafana. Automated routine tasks with Ansible.",
-                  technologies: ["Linux", "Ansible", "Prometheus", "Grafana", "AWS"],
+                    "Acquired knowledge in Docker, Kubernetes, CI/CD with Jenkins, GitLab, and GitHub, enhancing my technical skills. \
+                    Successfully deployed applications using AWS, demonstrating my ability to handle complex cloud platforms. \
+                    Implemented the Infrastructure as Code (IaC) approach with AWS Cloudformation and Terraform, showcasing my proficiency \
+                    in modern DevOps practices",
+                  technologies: ["AWS", "Docker", "Kubernetes", "Terraform", "Jenkins", "GitHub", "GitLab"],
+                },
+                {
+                  title: "IT Specialist",
+                  company: "Akhmet Yassawi University",
+                  period: "2024",
+                  description:
+                    "Provided technical support and administration services as an IT Specialist at Akhmet Yassawi University. \
+                    Utilized expertise in troubleshooting and maintaining IT systems to ensure smooth operational flow.",
+                  technologies: ["Windows", "Linux", "PostgreSQL"],
+                },
+                {
+                  title: "Cybersecurity Engineer",
+                  company: "Development Bank of Kazakhstan",
+                  period: "2021",
+                  description:
+                    "Utilized Python and Rust skills to conduct comprehensive network security tests at the Development Bank of Kazakhstan (DBK). \
+                    Developed a software solution capable of detecting ARP spoofing attacks on the local network, enhancing the bank's cybersecurity infrastructure. \
+                    Contributed to the elevation of the bank's cybersecurity level over a three-month period, effectively preventing potential breaches. \
+                    Acquired new cybersecurity techniques and tools through collaboration with experienced peers and mentors.",
+                  technologies: ["Linux", "Zeek IDS", "Rust"],
                 },
               ].map((job, index) => (
                 <motion.div
@@ -495,21 +516,15 @@ export default function Home() {
               >
                 {[
                   "AWS",
-                  "GCP",
-                  "Azure",
-                  "Kubernetes",
                   "Docker",
+                  "Kubernetes",
                   "Terraform",
-                  "Ansible",
                   "Jenkins",
-                  "GitHub Actions",
-                  "ArgoCD",
-                  "Prometheus",
-                  "Grafana",
-                  "ELK Stack",
-                  "Helm",
-                  "Istio",
+                  "Gitlab",
+                  "GitHub",
                   "Vault",
+                  "PostgreSQL",
+                  "RabbitMQ",
                 ].map((tool, index) => (
                   <motion.div
                     key={index}
@@ -558,7 +573,7 @@ export default function Home() {
                       </div>
                       <div>
                         <p className="text-sm text-gray-500 dark:text-gray-400">Email</p>
-                        <p className="text-gray-800 dark:text-white">contact@devopsmaster.com</p>
+                        <p className="text-gray-800 dark:text-white">nurkanat@nurkanatb.kz</p>
                       </div>
                     </div>
 
@@ -568,7 +583,7 @@ export default function Home() {
                       </div>
                       <div>
                         <p className="text-sm text-gray-500 dark:text-gray-400">LinkedIn</p>
-                        <p className="text-gray-800 dark:text-white">linkedin.com/in/devopsmaster</p>
+                        <p className="text-gray-800 dark:text-white">linkedin.com/in/nurkanat-baisenkul</p>
                       </div>
                     </div>
 
@@ -578,7 +593,7 @@ export default function Home() {
                       </div>
                       <div>
                         <p className="text-sm text-gray-500 dark:text-gray-400">GitHub</p>
-                        <p className="text-gray-800 dark:text-white">github.com/devopsmaster</p>
+                        <p className="text-gray-800 dark:text-white">github.com/tuchaVshortah</p>
                       </div>
                     </div>
                   </div>
@@ -640,19 +655,19 @@ export default function Home() {
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="flex items-center space-x-2 mb-4 md:mb-0">
               <Server className="h-6 w-6 text-teal-600 dark:text-teal-400" />
-              <span className="text-xl font-bold text-gray-800 dark:text-white">DevOps Master</span>
+              <span className="text-xl font-bold text-gray-800 dark:text-white">Nurkanat Baisenkul</span>
             </div>
 
             <div className="flex space-x-4">
-              <a href="#" className="text-gray-500 hover:text-teal-600 dark:text-gray-400 dark:hover:text-teal-400">
+              <a href="https://www.linkedin.com/in/nurkanat-baisenkul" className="text-gray-500 hover:text-teal-600 dark:text-gray-400 dark:hover:text-teal-400">
                 <Linkedin className="h-5 w-5" />
                 <span className="sr-only">LinkedIn</span>
               </a>
-              <a href="#" className="text-gray-500 hover:text-teal-600 dark:text-gray-400 dark:hover:text-teal-400">
+              <a href="https://github.com/tuchaVshortah" className="text-gray-500 hover:text-teal-600 dark:text-gray-400 dark:hover:text-teal-400">
                 <Github className="h-5 w-5" />
                 <span className="sr-only">GitHub</span>
               </a>
-              <a href="#" className="text-gray-500 hover:text-teal-600 dark:text-gray-400 dark:hover:text-teal-400">
+              <a href="mailto:nurkanat@nurkanatb.kz" className="text-gray-500 hover:text-teal-600 dark:text-gray-400 dark:hover:text-teal-400">
                 <Mail className="h-5 w-5" />
                 <span className="sr-only">Email</span>
               </a>
@@ -661,7 +676,7 @@ export default function Home() {
 
           <div className="mt-8 pt-8 border-t border-gray-200 dark:border-gray-700 text-center">
             <p className="text-sm text-gray-500 dark:text-gray-400">
-              &copy; {new Date().getFullYear()} DevOps Master. All rights reserved.
+              &copy; {new Date().getFullYear()} Nurkanat Baisenkul. All rights reserved.
             </p>
           </div>
         </div>

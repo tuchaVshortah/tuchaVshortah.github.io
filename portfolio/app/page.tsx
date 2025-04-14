@@ -568,7 +568,7 @@ export default function Home() {
                       </div>
                       <div>
                         <p className="text-sm text-gray-500 dark:text-gray-400">LinkedIn</p>
-                        <p className="text-gray-800 dark:text-white">linkedin.com/in/nurkanat-baisenkul/</p>
+                        <p className="text-gray-800 dark:text-white">linkedin.com/in/nurkanat-baisenkul</p>
                       </div>
                     </div>
 

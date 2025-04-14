@@ -7,7 +7,7 @@ tags = ["me"]
 categories = ["Blog"]
 
 [cover]
-image = "/assets/images/diving.jpg"
+image = "/blog/assets/images/diving.jpg"
 alt = "Diving"
 relative = false
 +++
@@ -16,7 +16,7 @@ relative = false
 
 My name is Nurkanat and I am 20 years old. I am a developer with a passion for protecting digital assets and systems from cyber threats. I have a certification in "Malware Analysis and Introduction to Assembly Language" from IBM, and "Google Cybersecurity Professional Certificate" from Google.
 
-<!-- ![Diving](/assets/images/diving.jpg#center) -->
+<!-- ![Diving](/blog/assets/images/diving.jpg#center) -->
 
 # Vision & Mission
 
@@ -46,9 +46,9 @@ I find my passion in creating and securing reliable systems. My mission is to de
 
 **Development Bank of Kazakhstan** - Cybersecurity Engineer
 
-<!-- ![DBK logo](/assets/images/dbk_logo.png) -->
+<!-- ![DBK logo](/blog/assets/images/dbk_logo.png) -->
 
-{{< embedImage src="/assets/images/dbk_logo.png" alt="DBK logo" maxWidth="25vw" maxHeight="25vh" >}}
+{{< embedImage src="/blog/assets/images/dbk_logo.png" alt="DBK logo" maxWidth="25vw" maxHeight="25vh" >}}
 
 **Responsibilities:**
 
@@ -62,9 +62,9 @@ I worked as a cybersecurity engineer at Development Bank of Kazakhstan (DBK), wh
 
 **Akhmet Yassawi University** - IT Specialist
 
-<!-- ![AYU logo](/assets/images/ayu_logo.png) -->
+<!-- ![AYU logo](/blog/assets/images/ayu_logo.png) -->
 
-{{< embedImage src="/assets/images/ayu_logo.png" alt="AYU logo" maxWidth="25vw" maxHeight="25vh" >}}
+{{< embedImage src="/blog/assets/images/ayu_logo.png" alt="AYU logo" maxWidth="25vw" maxHeight="25vh" >}}
 
 **Responsibilities:**
 
@@ -74,9 +74,9 @@ My responsibilties included managing employee accounts and sites. I uploaded the
 
 **Epam Systems** - Student Cloud&DevOps Trainee (Apprenticeship)
 
-<!-- ![Epam logo](/assets/images/epam_logo.png) -->
+<!-- ![Epam logo](/blog/assets/images/epam_logo.png) -->
 
-{{< embedImage src="/assets/images/epam_logo.png" alt="Epam logo" maxWidth="25vw" maxHeight="25vh" >}}
+{{< embedImage src="/blog/assets/images/epam_logo.png" alt="Epam logo" maxWidth="25vw" maxHeight="25vh" >}}
 
 **What did I do?**
 
@@ -92,7 +92,7 @@ I would like to thank the folks at Epam for organizing this amazing Bootcamp.
 
 **Institute of Space Engineering and Technologies LLP** - DevOps / First Category Engineer (Full-Time)
 
-{{< embedImage src="/assets/images/istt_logo.jpg" alt="ISTT logo" maxWidth="25vw" maxHeight="25vh" >}}
+{{< embedImage src="/blog/assets/images/istt_logo.jpg" alt="ISTT logo" maxWidth="25vw" maxHeight="25vh" >}}
 
 **What did I do?**
 
@@ -104,13 +104,13 @@ that usually comes in the form of paperwork on cybersecurity and stuff. I plan t
 
 ## Almaty Marathon 2024
 
-<!-- ![Almaty Marathon 2024 Certificate](/assets/images/almaty_marathon_2024.png) -->
+<!-- ![Almaty Marathon 2024 Certificate](/blog/assets/images/almaty_marathon_2024.png) -->
 
-{{< figure src="/assets/images/almaty_marathon_2024.png" alt="Almaty Marathon 2024 Certificate" width="75%" >}}
+{{< figure src="/blog/assets/images/almaty_marathon_2024.png" alt="Almaty Marathon 2024 Certificate" width="75%" >}}
 
-<!-- ![Almaty Marathon 2024 Medal](/assets/images/medal_almaty_marathon_2024.jpg) -->
+<!-- ![Almaty Marathon 2024 Medal](/blog/assets/images/medal_almaty_marathon_2024.jpg) -->
 
-{{< figure src="/assets/images/medal_almaty_marathon_2024.jpg" alt="Almaty Marathon 2024 Medal" width="75%" >}}
+{{< figure src="/blog/assets/images/medal_almaty_marathon_2024.jpg" alt="Almaty Marathon 2024 Medal" width="75%" >}}
 
 # My goals
 
@@ -120,5 +120,5 @@ that usually comes in the form of paperwork on cybersecurity and stuff. I plan t
 
 # Certificates
 
-- [Google Cybersecurity Professional](https://www.coursera.org/account/accomplishments/specialization/certificate/K9HHGTC2J6UH) -> [PDF](/assets/pdfs/Google_Cybersecurity_Professional.pdf)
+- [Google Cybersecurity Professional](https://www.coursera.org/account/accomplishments/specialization/certificate/K9HHGTC2J6UH) -> [PDF](/blog/assets/pdfs/Google_Cybersecurity_Professional.pdf)
 

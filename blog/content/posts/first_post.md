@@ -7,12 +7,12 @@ tags = ["Hello World!"]
 categories = ["Blog"]
 
 [cover]
-image = "/assets/images/beautiful_car.jpg"
+image = "/blog/assets/images/beautiful_car.jpg"
 alt = "Beautiful car"
 relative = false
 +++
 
 *This is my first post.*
 
-<!-- ![Car](/assets/images/beautiful_car.jpg#center) -->
-<!-- {{< figure align=center src="/assets/images/beautiful_car.jpg#center" >}} -->
+<!-- ![Car](/blog/assets/images/beautiful_car.jpg#center) -->
+<!-- {{< figure align=center src="/blog/assets/images/beautiful_car.jpg#center" >}} -->

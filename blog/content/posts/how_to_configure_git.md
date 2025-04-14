@@ -7,7 +7,7 @@ tags = ["configurations", "signatures", "git", "github", "gitlab"]
 categories = ["Tutorials"]
 
 [cover]
-image = "/assets/images/git_logo.jpg"
+image = "/blog/assets/images/git_logo.jpg"
 alt = "Git logo"
 relative = false
 +++
@@ -24,19 +24,19 @@ Remote code repositories such as Github and GitLab allow you to conveniently sha
 
 By default, whenever you push a commit to a remote Github repository it does not know a true identity attached to the commit. This might, potentially, make it harder for other users and your collaborators verify your identity. 
 
-![Unverified commits](/assets/images/git_unverified_commits.png#center)
+![Unverified commits](/blog/assets/images/git_unverified_commits.png#center)
 
 Other changes applied through the Github's web interface and pull requests are verified using a verified signature managed by Github.
 
-![Github signed commit](/assets/images/github_signed_commit.png#center)
+![Github signed commit](/blog/assets/images/github_signed_commit.png#center)
 
 Depending on your needs you might want to use your own signature to verify your commits and other changes such as merge requests.
 
-![Git verified commits](/assets/images/git_verified_commits.png#center)
+![Git verified commits](/blog/assets/images/git_verified_commits.png#center)
 
 This can be configured by notifying Github about the *identity* or a *GPG key* attached to your commits.
 
-![Git user signed commit](/assets/images/git_user_signed_commit.png#center)
+![Git user signed commit](/blog/assets/images/git_user_signed_commit.png#center)
 
 \
 [**Learn more**](https://docs.github.com/en/authentication/managing-commit-signature-verification/about-commit-signature-verification)
@@ -153,16 +153,16 @@ gpg --armor --export 3AA5C34371567BD2
 After you have copied the Public Key Block relevant to your Private Key you can add it to your Github account
 
 1. Navigate to [Github](https://github.com/) and click on your profile icon on the top right and click on *Settings*:
-![Github right sidebar](/assets/images/github_right_sidebar.png)
+![Github right sidebar](/blog/assets/images/github_right_sidebar.png)
 
 2. Click on *SSH and GPG keys*:
-![Github profile settings left sidebar](/assets/images/github_profile_settings_sidebar.png)
+![Github profile settings left sidebar](/blog/assets/images/github_profile_settings_sidebar.png)
 
 3. Press the *New GPG Key* button*:
-![Github profile settings New GPG Key](/assets/images/github_profile_settings_new_gpg_key.png)
+![Github profile settings New GPG Key](/blog/assets/images/github_profile_settings_new_gpg_key.png)
 
 4. Then paste the Public Key Block and press *Add GPG Key*:
-![Github profile settings Public Key Block](/assets/images/github_profile_settings_public_key_block.png)
+![Github profile settings Public Key Block](/blog/assets/images/github_profile_settings_public_key_block.png)
 
 5. Congrats! You have successfully added your public key to Github. There is only one step left - telling git which key to use to sign commits.
 

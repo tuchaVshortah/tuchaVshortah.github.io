@@ -661,7 +661,7 @@ export default function Home() {
 
           <div className="mt-8 pt-8 border-t border-gray-200 dark:border-gray-700 text-center">
             <p className="text-sm text-gray-500 dark:text-gray-400">
-              &copy; {new Date().getFullYear()} DevOps Master. All rights reserved.
+              &copy; {new Date().getFullYear()} Nurkanat Baisenkul. All rights reserved.
             </p>
           </div>
         </div>

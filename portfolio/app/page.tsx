@@ -75,7 +75,7 @@ export default function Home() {
             className="flex items-center space-x-2"
           >
             <Server className="h-6 w-6 text-teal-600 dark:text-teal-400" />
-            <span className="text-xl font-bold text-gray-800 dark:text-white">DevOps Master</span>
+            <span className="text-xl font-bold text-gray-800 dark:text-white">Nurkanat Baisenkul</span>
           </motion.div>
 
           {/* Desktop Navigation */}
@@ -655,7 +655,7 @@ export default function Home() {
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="flex items-center space-x-2 mb-4 md:mb-0">
               <Server className="h-6 w-6 text-teal-600 dark:text-teal-400" />
-              <span className="text-xl font-bold text-gray-800 dark:text-white">DevOps Master</span>
+              <span className="text-xl font-bold text-gray-800 dark:text-white">Nurkanat Baisenkul</span>
             </div>
 
             <div className="flex space-x-4">

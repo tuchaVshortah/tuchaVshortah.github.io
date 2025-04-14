@@ -495,21 +495,15 @@ export default function Home() {
               >
                 {[
                   "AWS",
-                  "GCP",
-                  "Azure",
-                  "Kubernetes",
                   "Docker",
+                  "Kubernetes",
                   "Terraform",
-                  "Ansible",
                   "Jenkins",
-                  "GitHub Actions",
-                  "ArgoCD",
-                  "Prometheus",
-                  "Grafana",
-                  "ELK Stack",
-                  "Helm",
-                  "Istio",
+                  "Gitlab",
+                  "GitHub",
                   "Vault",
+                  "PostgreSQL",
+                  "RabbitMQ",
                 ].map((tool, index) => (
                   <motion.div
                     key={index}

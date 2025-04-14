@@ -283,14 +283,14 @@ export default function Home() {
                   <h3 className="text-xl font-semibold text-gray-800 dark:text-white mb-4">Education</h3>
                   <div className="space-y-4">
                     <div className="border-l-2 border-teal-600 dark:border-teal-400 pl-4">
-                      <p className="text-sm text-teal-600 dark:text-teal-400">2020 - 2022</p>
-                      <h4 className="font-medium text-gray-800 dark:text-white">Master's in Computer Science</h4>
-                      <p className="text-gray-600 dark:text-gray-300">University of Technology</p>
+                      <p className="text-sm text-teal-600 dark:text-teal-400">2024 - 2026</p>
+                      <h4 className="font-medium text-gray-800 dark:text-white">Master's Computer Science</h4>
+                      <p className="text-gray-600 dark:text-gray-300">Suleyman Demirel University</p>
                     </div>
                     <div className="border-l-2 border-teal-600 dark:border-teal-400 pl-4">
-                      <p className="text-sm text-teal-600 dark:text-teal-400">2016 - 2020</p>
-                      <h4 className="font-medium text-gray-800 dark:text-white">Bachelor's in Computer Engineering</h4>
-                      <p className="text-gray-600 dark:text-gray-300">State University</p>
+                      <p className="text-sm text-teal-600 dark:text-teal-400">2021 - 2024</p>
+                      <h4 className="font-medium text-gray-800 dark:text-white">Bachelor's Cybersecurity</h4>
+                      <p className="text-gray-600 dark:text-gray-300">Astana IT University</p>
                     </div>
                   </div>
                 </div>

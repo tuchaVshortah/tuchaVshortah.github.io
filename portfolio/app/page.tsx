@@ -349,14 +349,12 @@ export default function Home() {
                   description:
                     "Configured advanced PostgreSQL replication and logging. Wrote a custom passwordcheck module that enforces password policies. \
                     Set up RabbitMQ clusters and replication for high availability. \
-                    Set up GitLab on-premise and Docker runners. Created CI/CD pipelines to auto install dependencies, lint, build, test (SAST) and
-deploy.
-Set up Hashicorp Vault for secure secret storage. Configured path policies and roles. Managed SSL certificates through Vault
-PKI.
-BIND9 DNS server administration.
-Linux administration. Management of permissions and entities (users, groups). Secure configuration of remote access
-services such as SSH and FTP. Miscellaneous stuff such as port management, crontabs.",
-                  technologies: ["AWS", "Docker", "Kubernetes", "Terraform", "Jenkins", "GitHub", "GitLab"],
+                    Set up GitLab on-premise and Docker runners. Created CI/CD pipelines to auto install dependencies, lint, build, test (SAST) and deploy. \
+                    Set up Hashicorp Vault for secure secret storage. Configured path policies and roles. Managed SSL certificates through Vault PKI. \
+                    BIND9 DNS server administration. \
+                    Linux administration. Management of permissions and entities (users, groups). Secure configuration of remote access \
+                    services such as SSH and FTP. Miscellaneous stuff such as port management, crontabs.",
+                  technologies: ["Linux", "Bind9", "Docker", "GitLab CI", "PostgreSQL", "RabbitMQ", "Vault"],
                 },
                 {
                   title: "Cloud&DevOps Student Trainee",

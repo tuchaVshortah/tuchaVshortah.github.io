@@ -8,7 +8,7 @@ tags = ["configurations", "windows"]
 categories = ["Tutorials"]
 
 [cover]
-image = "/assets/images/windows_old_context_menu.png"
+image = "/blog/assets/images/windows_old_context_menu.png"
 alt = "The old context menu"
 relative = false
 +++
@@ -17,7 +17,7 @@ relative = false
 
 You can restore the old Windows 10 context menu if you are not happy with the new one in Windows 11. This may be due to the appearance of the new menu or its usability. Follow the steps below to easily restore the older menu.
 
-{{< embedImage src="/assets/images/windows_new_context_menu.png" alt="The new context menu" title="The new context menu" maxWidth="25vw" maxHeight="50" position="center">}}
+{{< embedImage src="/blog/assets/images/windows_new_context_menu.png" alt="The new context menu" title="The new context menu" maxWidth="25vw" maxHeight="50" position="center">}}
 
 
 

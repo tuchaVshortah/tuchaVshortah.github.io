@@ -233,9 +233,9 @@ export default function Home() {
                 <img
                   src="/diving.jpg"
                   alt="My diving picture"
-                  width={320}
-                  height={320}
-                  className="object-cover"
+                  width={360}
+                  height={360}
+                  className="w-full h-full object-cover object-[25%_center]"
                 />
               </motion.div>
             </motion.div>

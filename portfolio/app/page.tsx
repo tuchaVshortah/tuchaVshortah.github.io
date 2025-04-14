@@ -231,7 +231,7 @@ export default function Home() {
                 className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-teal-600 dark:border-teal-400 shadow-xl"
               >
                 <Image
-                  src="/placeholder.svg?height=320&width=320"
+                  src="/diving.jpg"
                   alt="Profile"
                   width={320}
                   height={320}

@@ -228,7 +228,7 @@ export default function Home() {
                   repeatType: "reverse",
                   ease: "easeInOut",
                 }}
-                className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-teal-600 dark:border-teal-400 shadow-xl"
+                className="flex items-center justify-center relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-teal-600 dark:border-teal-400 shadow-xl"
               >
                 <img
                   src="/diving.jpg"

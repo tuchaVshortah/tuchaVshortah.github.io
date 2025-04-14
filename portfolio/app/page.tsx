@@ -343,28 +343,51 @@ export default function Home() {
             >
               {[
                 {
-                  title: "Senior DevOps Engineer",
-                  company: "Tech Solutions Inc.",
-                  period: "2021 - Present",
-                  description:
-                    "Led the migration to Kubernetes, reducing deployment time by 70%. Implemented GitOps workflow with ArgoCD and Flux. Designed and maintained AWS infrastructure using Terraform.",
-                  technologies: ["AWS", "Kubernetes", "Terraform", "ArgoCD", "GitHub Actions"],
-                },
-                {
                   title: "DevOps Engineer",
-                  company: "Cloud Systems Ltd.",
-                  period: "2019 - 2021",
+                  company: "Institute of Space Engineering and Technologies LLP",
+                  period: "2025",
                   description:
-                    "Designed and implemented CI/CD pipelines using Jenkins and GitLab CI. Containerized legacy applications and deployed them to EKS. Automated infrastructure provisioning with CloudFormation.",
-                  technologies: ["AWS", "Docker", "Jenkins", "CloudFormation", "EKS"],
+                    "Configured advanced PostgreSQL replication and logging. Wrote a custom passwordcheck module that enforces password policies. \
+                    Set up RabbitMQ clusters and replication for high availability. \
+                    Set up GitLab on-premise and Docker runners. Created CI/CD pipelines to auto install dependencies, lint, build, test (SAST) and
+deploy.
+Set up Hashicorp Vault for secure secret storage. Configured path policies and roles. Managed SSL certificates through Vault
+PKI.
+BIND9 DNS server administration.
+Linux administration. Management of permissions and entities (users, groups). Secure configuration of remote access
+services such as SSH and FTP. Miscellaneous stuff such as port management, crontabs.",
+                  technologies: ["AWS", "Docker", "Kubernetes", "Terraform", "Jenkins", "GitHub", "GitLab"],
                 },
                 {
-                  title: "Systems Administrator",
-                  company: "Data Networks Corp.",
-                  period: "2017 - 2019",
+                  title: "Cloud&DevOps Student Trainee",
+                  company: "Epam Kazakhstan",
+                  period: "2024 - 2025",
                   description:
-                    "Managed on-premises infrastructure and began cloud migration initiatives. Implemented monitoring solutions with Prometheus and Grafana. Automated routine tasks with Ansible.",
-                  technologies: ["Linux", "Ansible", "Prometheus", "Grafana", "AWS"],
+                    "Acquired knowledge in Docker, Kubernetes, CI/CD with Jenkins, GitLab, and GitHub, enhancing my technical skills. \
+                    Successfully deployed applications using AWS, demonstrating my ability to handle complex cloud platforms. \
+                    Implemented the Infrastructure as Code (IaC) approach with AWS Cloudformation and Terraform, showcasing my proficiency \
+                    in modern DevOps practices",
+                  technologies: ["AWS", "Docker", "Kubernetes", "Terraform", "Jenkins", "GitHub", "GitLab"],
+                },
+                {
+                  title: "IT Specialist",
+                  company: "Akhmet Yassawi University",
+                  period: "2024",
+                  description:
+                    "Provided technical support and administration services as an IT Specialist at Akhmet Yassawi University. \
+                    Utilized expertise in troubleshooting and maintaining IT systems to ensure smooth operational flow.",
+                  technologies: ["Windows", "Linux", "PostgreSQL"],
+                },
+                {
+                  title: "Cybersecurity Engineer",
+                  company: "Development Bank of Kazakhstan",
+                  period: "2021",
+                  description:
+                    "Utilized Python and Rust skills to conduct comprehensive network security tests at the Development Bank of Kazakhstan (DBK). \
+                    Developed a software solution capable of detecting ARP spoofing attacks on the local network, enhancing the bank's cybersecurity infrastructure. \
+                    Contributed to the elevation of the bank's cybersecurity level over a three-month period, effectively preventing potential breaches. \
+                    Acquired new cybersecurity techniques and tools through collaboration with experienced peers and mentors.",
+                  technologies: ["Linux", "Zeek IDS", "Rust"],
                 },
               ].map((job, index) => (
                 <motion.div

@@ -644,15 +644,15 @@ export default function Home() {
             </div>
 
             <div className="flex space-x-4">
-              <a href="#" className="text-gray-500 hover:text-teal-600 dark:text-gray-400 dark:hover:text-teal-400">
+              <a href="https://www.linkedin.com/in/nurkanat-baisenkul/" className="text-gray-500 hover:text-teal-600 dark:text-gray-400 dark:hover:text-teal-400">
                 <Linkedin className="h-5 w-5" />
                 <span className="sr-only">LinkedIn</span>
               </a>
-              <a href="#" className="text-gray-500 hover:text-teal-600 dark:text-gray-400 dark:hover:text-teal-400">
+              <a href="https://github.com/tuchaVshortah" className="text-gray-500 hover:text-teal-600 dark:text-gray-400 dark:hover:text-teal-400">
                 <Github className="h-5 w-5" />
                 <span className="sr-only">GitHub</span>
               </a>
-              <a href="#" className="text-gray-500 hover:text-teal-600 dark:text-gray-400 dark:hover:text-teal-400">
+              <a href="mailto:nurkanat@nurkanatb.kz" className="text-gray-500 hover:text-teal-600 dark:text-gray-400 dark:hover:text-teal-400">
                 <Mail className="h-5 w-5" />
                 <span className="sr-only">Email</span>
               </a>

@@ -230,9 +230,9 @@ export default function Home() {
                 }}
                 className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-teal-600 dark:border-teal-400 shadow-xl"
               >
-                <Image
+                <img
                   src="/diving.jpg"
-                  alt="Profile"
+                  alt="My diving picture"
                   width={320}
                   height={320}
                   className="object-cover"

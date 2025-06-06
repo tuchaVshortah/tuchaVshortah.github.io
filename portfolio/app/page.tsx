@@ -343,9 +343,19 @@ export default function Home() {
             >
               {[
                 {
+                  title: "Cyber Defense Process Architect",
+                  company: "Kaspi.kz",
+                  period: "2025 - Present",
+                  description:
+                    "Managing the security posture of Bank and providing controlled access to resources. \
+                    Utilizing various firewalls, IDS/IPS systems and balancers to keep the all the systems online and operational. \
+                    Designing reliable and failproof architecture and services for customers.",
+                  technologies: ["Windows", "Linux", "Firewalls", "IPSec", "VPN"],
+                },
+                {
                   title: "DevOps Engineer",
                   company: "Institute of Space Engineering and Technologies LLP",
-                  period: "2025",
+                  period: "2025 - Present",
                   description:
                     "Configured advanced PostgreSQL replication and logging. Wrote a custom passwordcheck module that enforces password policies. \
                     Set up RabbitMQ clusters and replication for high availability. \

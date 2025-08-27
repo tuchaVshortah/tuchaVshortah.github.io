@@ -195,8 +195,8 @@ export default function Home() {
               className="order-2 md:order-1"
             >
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-800 dark:text-white mb-4">
-                <span className="text-teal-600 dark:text-teal-400">DevOps</span> Engineer
-                <br />& Cloud Architect
+                <span className="text-teal-600 dark:text-teal-400">Solutions</span> Architect
+                <br />& DevOps Engineer
               </h1>
               <p className="text-xl text-gray-600 dark:text-gray-300 mb-8">
                 Automating infrastructure, optimizing workflows, and building scalable systems.
@@ -298,8 +298,8 @@ export default function Home() {
                 <div>
                   <h3 className="text-xl font-semibold text-gray-800 dark:text-white mb-4">Professional Profile</h3>
                   <p className="text-gray-600 dark:text-gray-300 mb-4">
-                    I'm a DevOps Engineer with a Master's degree and extensive experience in designing, implementing,
-                    and managing cloud infrastructure and CI/CD pipelines.
+                    I'm a Solutions Architect and a DevOps Engineer with extensive experience in designing, implementing,
+                    and managing infrastructure.
                   </p>
                   <p className="text-gray-600 dark:text-gray-300 mb-4">
                     My expertise includes containerization with Docker, orchestration with Kubernetes, Infrastructure as
@@ -350,14 +350,14 @@ export default function Home() {
                     "Managing the security posture of Bank and providing controlled access to resources. \
                     Utilizing various firewalls, IDS/IPS systems and balancers to keep the all the systems online and operational. \
                     Designing reliable and failproof architecture and services for customers.",
-                  technologies: ["Windows", "Linux", "Firewalls", "IPSec", "VPN"],
+                  technologies: ["Windows", "Firewalls", "IPSec", "VPN"],
                 },
                 {
                   title: "DevOps Engineer",
                   company: "Institute of Space Engineering and Technologies LLP",
-                  period: "2025 - Present",
+                  period: "2025",
                   description:
-                    "Configured advanced PostgreSQL replication and logging. Wrote a custom passwordcheck module that enforces password policies. \
+                    "Configured PostgreSQL replication and logging. Wrote a custom passwordcheck module that enforces password policies. \
                     Set up RabbitMQ clusters and replication for high availability. \
                     Set up GitLab on-premise and Docker runners. Created CI/CD pipelines to auto install dependencies, lint, build, test (SAST) and deploy. \
                     Set up Hashicorp Vault for secure secret storage. Configured path policies and roles. Managed SSL certificates through Vault PKI. \

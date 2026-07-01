@@ -4,9 +4,9 @@ import { ThemeProvider } from "@/components/theme-provider"
 import Script from "next/script"
 
 export const metadata = {
-  title: "DevOps Engineer Portfolio",
+  title: "Nurkanat Baisenkul — Platform, Solutions & Security Engineer",
   description:
-    "Professional portfolio for a DevOps Engineer with expertise in AWS, Kubernetes, CI/CD, and Infrastructure as Code.",
+    "Portfolio of Nurkanat Baisenkul — a platform- and security-focused engineer building secure delivery platforms with CI/CD, HashiCorp Vault, Kubernetes, and AWS.",
 }
 
 export default function RootLayout({

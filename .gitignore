@@ -6,6 +6,10 @@ portfolio/node_modules
 out/
 dist/
 
+# Hugo
+.hugo_build.lock
+blog/resources/_gen/
+
 # OS
 .DS_Store
 

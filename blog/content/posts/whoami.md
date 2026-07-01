@@ -14,7 +14,7 @@ relative = false
 
 # About me
 
-My name is Nurkanat and I am 20 years old. I am a developer with a passion for protecting digital assets and systems from cyber threats. I have a certification in "Malware Analysis and Introduction to Assembly Language" from IBM, and "Google Cybersecurity Professional Certificate" from Google.
+My name is Nurkanat. I am a platform- and security-focused engineer with a passion for protecting digital assets and systems from cyber threats. I hold certifications in "Malware Analysis and Introduction to Assembly Language" from IBM and the "Google Cybersecurity Professional Certificate" from Google.
 
 <!-- ![Diving](/blog/assets/images/diving.jpg#center) -->
 
@@ -35,7 +35,7 @@ I find my passion in creating and securing reliable systems. My mission is to de
 1. Bachelor of Cybersecurity
 2. Department of Informational Security
 
-## Suleyman Demirel University (2024 - Today)
+## Suleyman Demirel University (2024 - 2026, graduated)
 
 1. Master of Computer Science
 2. Faculty of Engineering and Natural Sciences
@@ -88,17 +88,23 @@ The Bootcamp was both challenging and incredibly interesting. I learned many new
 
 I would like to thank the folks at Epam for organizing this amazing Bootcamp.
 
-## 2025
+## Feb 2025 - Aug 2025
 
-**Institute of Space Engineering and Technologies LLP** - DevOps / First Category Engineer (Full-Time)
+**Institute of Space Engineering and Technologies LLP** - DevOps Engineer
 
 {{< embedImage src="/blog/assets/images/istt_logo.jpg" alt="ISTT logo" maxWidth="25vw" maxHeight="25vh" >}}
 
 **What did I do?**
 
-I am working :)
-Check my resume to learn more. In short, I am mainly setting up CI/CD pipelines with GitLab and managing runners and repositories. I have a lot of responsibilities on administering PostgreSQL and RabbitMQ. My job involves some bureaucracy
-that usually comes in the form of paperwork on cybersecurity and stuff. I plan to run k8s and containerize the whole infrastructure of this place in the future.
+Check my resume to learn more. In short, I set up CI/CD pipelines with GitLab and managed runners and repositories, and took on a lot of responsibility administering PostgreSQL and RabbitMQ. I configured advanced PostgreSQL replication, built high-availability RabbitMQ clusters, deployed HashiCorp Vault for secrets management and PKI, and hardened Linux hosts and BIND9 DNS.
+
+## May 2025 - Present
+
+**Kaspi.kz** - Cyber Threat Defense Architect
+
+**What do I do?**
+
+I manage security infrastructure and enforce enterprise security standards and policies across production services. I evaluate service reliability and security posture, identifying and remediating risks in live systems.
 
 # Personal achievements
 

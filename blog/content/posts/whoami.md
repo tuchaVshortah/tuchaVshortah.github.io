@@ -42,7 +42,7 @@ I find my passion in creating and securing reliable systems. My mission is to de
 
 # Work experience
 
-## 2021 (3 months)
+## 2023 (3 months)
 
 **Development Bank of Kazakhstan** - Cybersecurity Engineer
 
@@ -57,18 +57,6 @@ I worked as a cybersecurity engineer at Development Bank of Kazakhstan (DBK), wh
 **Projects:**
 
 [arp-spoofing-detector-rs](https://github.com/tuchaVshortah/arp-spoofing-detector-rs)
-
-## 2024 (6 months)
-
-**Akhmet Yassawi University** - IT Specialist
-
-<!-- ![AYU logo](/blog/assets/images/ayu_logo.png) -->
-
-{{< embedImage src="/blog/assets/images/ayu_logo.png" alt="AYU logo" maxWidth="25vw" maxHeight="25vh" >}}
-
-**Responsibilities:**
-
-My responsibilties included managing employee accounts and sites. I uploaded the necessary information to the sites and updated them. I helped the staff to fill out, set up and regain access to their work accounts if they lost it.
 
 ## 2024 (8 months)
 
@@ -100,11 +88,11 @@ Check my resume to learn more. In short, I set up CI/CD pipelines with GitLab an
 
 ## May 2025 - Present
 
-**Kaspi.kz** - Cyber Threat Defense Architect
+**Kaspi.kz** - Cyber Defense Process Architect
 
 **What do I do?**
 
-I manage security infrastructure and enforce enterprise security standards and policies across production services. I evaluate service reliability and security posture, identifying and remediating risks in live systems.
+I review the security architecture and deployment approach of services across hundreds of engineering teams, catching misconfigurations and low-hanging risks before sign-off and hand-off to the Ethical Hacking team. I led on-premise proof-of-concept pilots of Kubernetes security platforms — Luntry and Aqua Security — largely single-handedly, produce security architecture diagrams for containerized workloads, and verify network configuration (NAT, VLANs, routing, and IPSec tunnels) on Huawei firewalls during architecture reviews.
 
 # Personal achievements
 
@@ -123,6 +111,10 @@ I manage security infrastructure and enforce enterprise security standards and p
 1. I would like to expand my knowledge in the area of cloud technologies and DevOps, as well as contribute to the development of various cloud-based or on-premises services.
 
 2. My final Goal is to become a well experienced and certified Cloud&Devops Developer with a strong competency in full stack WEB development.
+
+# Publications
+
+- **Investigating Knowledge Graphs for Context-Aware Search in Financial Transactional AI Agents** — ICECCO 2026, indexed in IEEE Xplore. [ORCID: 0009-0000-8386-4960](https://orcid.org/0009-0000-8386-4960)
 
 # Certificates
 

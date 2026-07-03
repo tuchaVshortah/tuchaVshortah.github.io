@@ -3,37 +3,38 @@
 import { useState, useEffect } from "react"
 import { useTheme } from "next-themes"
 import { motion, AnimatePresence } from "framer-motion"
-import { Award, Cloud, Code, Database, ExternalLink, Github, Globe, Linkedin, Mail, Menu, Server, Shield, X } from "lucide-react"
+import { BookOpen, Cloud, Code, Database, ExternalLink, Github, Globe, Linkedin, Mail, Menu, Server, Shield, X } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
 const NAV_SECTIONS = ["home", "about", "experience", "projects", "skills", "contact"]
 
 const experience = [
   {
-    title: "Cyber Threat Defense Architect",
+    title: "Cyber Defense Process Architect",
     company: "Kaspi.kz",
     period: "May 2025 – Present",
     location: "Almaty, Kazakhstan",
     description:
-      "Manage security infrastructure and enforce enterprise security standards and policies across production services. \
-      Evaluate service reliability and security posture, identifying and remediating risks in live systems.",
-    technologies: ["Security Ops", "Enterprise Policy", "Risk & Reliability"],
+      "Review the security architecture and deployment approach of services across hundreds of engineering teams, catching misconfigurations and low-hanging risks before sign-off and hand-off to the Ethical Hacking team. \
+      Led on-premise proof-of-concept pilots of Kubernetes security platforms — Luntry and Aqua Security — largely single-handedly, assessing operational fit and trade-offs for the bank. \
+      Produce security architecture diagrams for containerized (Kubernetes) workloads and verify network configuration — NAT, VLANs, routing, and IPSec tunnels — on Huawei firewalls during architecture reviews.",
+    technologies: ["Security Architecture", "Kubernetes Security", "Aqua Security", "Luntry", "Network Security"],
   },
   {
     title: "DevOps Engineer (Junior → Middle)",
     company: "Institute of Space Engineering and Technologies LLP",
     period: "Feb 2025 – Aug 2025",
-    location: "Remote",
+    location: "On-site → Remote (part-time)",
     description:
-      "Configured advanced PostgreSQL replication and logging, and authored a custom C passwordcheck module enforcing organizational password policies. \
-      Built high-availability RabbitMQ clusters, stood up on-premise GitLab with Docker runners, and authored CI/CD pipelines to install, lint, build, run SAST, and deploy. \
-      Deployed HashiCorp Vault for secrets management and issued SSL certificates via Vault PKI. Administered BIND9 DNS and hardened Linux hosts.",
-    technologies: ["PostgreSQL", "RabbitMQ", "GitLab CI", "Vault", "BIND9", "Linux", "Docker"],
+      "Built the organization's CI/CD platform from the ground up, single-handedly — on-premise GitLab CE with Docker-in-Docker runners serving 20+ component repositories, with reusable pipeline templates and a custom approval gate (absent from GitLab CE) that gated releases on manager approval. \
+      Configured PostgreSQL replication and logging (2–3 node cluster) and a high-availability RabbitMQ cluster, and authored a custom C passwordcheck module enforcing organizational password policies. \
+      Deployed HashiCorp Vault for secrets management and PKI, administered BIND9 DNS, and hardened Linux hosts.",
+    technologies: ["PostgreSQL", "RabbitMQ", "GitLab CI", "Vault", "BIND9", "Linux", "Docker", "C"],
   },
   {
     title: "Cloud & DevOps Trainee",
     company: "EPAM Kazakhstan",
-    period: "Jul 2024 – Feb 2025",
+    period: "Jul 2024 – Dec 2024",
     location: "Almaty, Kazakhstan",
     description:
       "Built and operated containerized workloads with Docker and Kubernetes across Jenkins, GitLab, and GitHub CI/CD pipelines. \
@@ -41,22 +42,13 @@ const experience = [
     technologies: ["AWS", "Docker", "Kubernetes", "Terraform", "CloudFormation", "Jenkins"],
   },
   {
-    title: "IT Specialist",
-    company: "Akhmet Yassawi University",
-    period: "Mar 2024 – Aug 2024",
-    location: "Turkestan, Kazakhstan",
-    description:
-      "Provided IT support and systems administration — troubleshooting and maintaining hardware, software, and network services to keep operations running.",
-    technologies: ["IT Support", "Sysadmin", "Networking"],
-  },
-  {
     title: "Cybersecurity Engineer (Intern)",
     company: "Development Bank of Kazakhstan",
-    period: "Jun 2021 – Aug 2021",
+    period: "Mar 2023 – May 2023",
     location: "Astana, Kazakhstan",
     description:
       "Conducted network security testing in Python and Rust alongside the bank's security team. \
-      Developed an ARP-spoofing detection tool that forwards alerts to a Syslog server, strengthening the bank's security posture over a three-month engagement.",
+      Built an ARP-spoofing detection tool in Rust — packaged as a Windows service — that monitors the LAN and forwards alerts to a Syslog server, deployed on machines across the corporate network.",
     technologies: ["Python", "Rust", "Network Security", "Syslog"],
   },
 ]
@@ -67,10 +59,16 @@ const skillGroups = [
   { title: "Security", skills: ["HashiCorp Vault", "PKI / SSL", "SAST", "Network security", "Password-policy enforcement"] },
   { title: "Languages", skills: ["Python", "Rust", "C", "Bash", "SQL"] },
   { title: "Data & Infra", skills: ["PostgreSQL (replication)", "RabbitMQ (clustering)", "BIND9 DNS", "Linux administration"] },
-  { title: "AI", skills: ["Applied AI / ML with Python"] },
+  { title: "AI", skills: ["LLM agents", "Retrieval-augmented generation", "Knowledge graphs (RDF / SPARQL)", "Applied ML with Python"] },
 ]
 
 const projects = [
+  {
+    name: "financial-kg-agent",
+    language: "Python",
+    url: "https://github.com/tuchaVshortah/financial-kg-agent",
+    description: "LLM agent that grounds financial-transaction queries in a knowledge graph — builds an RDF graph, retrieves facts over SPARQL, and injects them into the model with compliance guardrails. Implementation behind the published IEEE research.",
+  },
   {
     name: "passwordcheck",
     language: "C",
@@ -81,7 +79,7 @@ const projects = [
     name: "arp-spoofing-detector-rs",
     language: "Rust",
     url: "https://github.com/tuchaVshortah/arp-spoofing-detector-rs",
-    description: "Detects ARP-spoofing attacks on local or corporate networks and ships logs to a Syslog-compatible server.",
+    description: "Detects ARP-spoofing attacks on local or corporate networks, runs as a Windows service, and ships logs to a Syslog-compatible server.",
   },
   {
     name: "puff",
@@ -91,10 +89,13 @@ const projects = [
   },
 ]
 
-const certifications = [
-  { name: "Google Cybersecurity Professional", issuer: "Google", date: "Feb 2024" },
-  { name: "Network Security", issuer: "Cisco", date: "Nov 2023" },
-  { name: "CCNA: Switching, Routing, and Wireless Essentials", issuer: "Cisco", date: "Feb 2023" },
+const publications = [
+  {
+    title: "Investigating Knowledge Graphs for Context-Aware Search in Financial Transactional AI Agents",
+    venue: "ICECCO 2026 — indexed in IEEE Xplore",
+    date: "2026",
+    url: "https://orcid.org/0009-0000-8386-4960",
+  },
 ]
 
 const languages = [
@@ -402,8 +403,9 @@ export default function Home() {
                     tooling in Rust, C, and Python.
                   </p>
                   <p className="text-gray-600 dark:text-gray-300">
-                    I'm comfortable across cloud (AWS), infrastructure-as-code, and applied AI, and I care about
-                    automation, scalable architecture, and reliable, secure systems.
+                    I'm comfortable across cloud (AWS), infrastructure-as-code, and applied AI — including LLM agents
+                    grounded in knowledge graphs, the subject of published IEEE research — and I care about automation,
+                    scalable architecture, and reliable, secure systems.
                   </p>
                 </div>
               </div>
@@ -556,21 +558,28 @@ export default function Home() {
               ))}
             </div>
 
-            {/* Certifications & Languages */}
+            {/* Publications & Languages */}
             <div className="grid md:grid-cols-2 gap-6 mt-6">
               <div className="bg-white dark:bg-gray-800 rounded-xl shadow-md p-6">
                 <div className="flex items-center gap-2 mb-4">
-                  <Award className="h-5 w-5 text-teal-600 dark:text-teal-400" />
-                  <h3 className="text-lg font-semibold text-gray-800 dark:text-white">Certifications</h3>
+                  <BookOpen className="h-5 w-5 text-teal-600 dark:text-teal-400" />
+                  <h3 className="text-lg font-semibold text-gray-800 dark:text-white">Publications</h3>
                 </div>
                 <ul className="space-y-3">
-                  {certifications.map((cert, index) => (
-                    <li key={index} className="flex justify-between gap-4">
-                      <div>
-                        <p className="text-gray-800 dark:text-white text-sm font-medium">{cert.name}</p>
-                        <p className="text-gray-500 dark:text-gray-400 text-xs">{cert.issuer}</p>
+                  {publications.map((pub, index) => (
+                    <li key={index} className="flex flex-col gap-1">
+                      <a
+                        href={pub.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-gray-800 dark:text-white text-sm font-medium hover:text-teal-600 dark:hover:text-teal-400"
+                      >
+                        {pub.title}
+                      </a>
+                      <div className="flex justify-between gap-4">
+                        <p className="text-gray-500 dark:text-gray-400 text-xs">{pub.venue}</p>
+                        <span className="text-xs text-teal-600 dark:text-teal-400 whitespace-nowrap">{pub.date}</span>
                       </div>
-                      <span className="text-xs text-teal-600 dark:text-teal-400 whitespace-nowrap">{cert.date}</span>
                     </li>
                   ))}
                 </ul>

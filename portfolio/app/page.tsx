@@ -3,7 +3,7 @@
 import { useState, useEffect } from "react"
 import { useTheme } from "next-themes"
 import { motion, AnimatePresence } from "framer-motion"
-import { BookOpen, Cloud, Code, Database, ExternalLink, Github, Globe, Linkedin, Mail, Menu, Server, Shield, X } from "lucide-react"
+import { BookOpen, Cloud, Code, Database, ExternalLink, FileText, Github, Globe, Linkedin, Mail, Menu, Server, Shield, X } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
 const NAV_SECTIONS = ["home", "about", "experience", "projects", "skills", "contact"]
@@ -306,6 +306,18 @@ export default function Home() {
                   className="border-teal-600 text-teal-600 hover:bg-teal-50 dark:border-teal-400 dark:text-teal-400 dark:hover:bg-teal-900/20"
                 >
                   View My Work
+                </Button>
+                {/* Served from portfolio/public — fetched from the resume repo's
+                    latest release at build time, so it is never stale. */}
+                <Button
+                  asChild
+                  variant="outline"
+                  className="border-teal-600 text-teal-600 hover:bg-teal-50 dark:border-teal-400 dark:text-teal-400 dark:hover:bg-teal-900/20"
+                >
+                  <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+                    <FileText className="mr-2 h-4 w-4" />
+                    View Résumé
+                  </a>
                 </Button>
               </div>
             </motion.div>

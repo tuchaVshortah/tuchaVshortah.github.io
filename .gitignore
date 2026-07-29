@@ -6,6 +6,11 @@ portfolio/node_modules
 out/
 dist/
 
+# Résumé PDF — fetched from the resume repo's latest release by CI at build
+# time (see .github/workflows/ci.yaml). Never commit it, or the tracked copy
+# will drift from the actual résumé.
+portfolio/public/resume.pdf
+
 # Hugo
 .hugo_build.lock
 blog/resources/_gen/

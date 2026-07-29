@@ -99,7 +99,7 @@ const publications = [
 ]
 
 const languages = [
-  { name: "English", level: "Fluent (IELTS 7.5)" },
+  { name: "English", level: "Fluent (Duolingo English Test 135/160, CEFR C1)" },
   { name: "Kazakh", level: "Native" },
   { name: "Russian", level: "Fluent" },
 ]

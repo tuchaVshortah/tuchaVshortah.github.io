@@ -116,7 +116,3 @@ I review the security architecture and deployment approach of services across hu
 
 - **Investigating Knowledge Graphs for Context-Aware Search in Financial Transactional AI Agents** — ICECCO 2026, indexed in IEEE Xplore. [ORCID: 0009-0000-8386-4960](https://orcid.org/0009-0000-8386-4960)
 
-# Certificates
-
-- [Google Cybersecurity Professional](https://www.coursera.org/account/accomplishments/specialization/certificate/K9HHGTC2J6UH) -> [PDF](/blog/assets/pdfs/Google_Cybersecurity_Professional.pdf)
-

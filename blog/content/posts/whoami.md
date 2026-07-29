@@ -14,7 +14,7 @@ relative = false
 
 # About me
 
-My name is Nurkanat. I am a platform- and security-focused engineer with a passion for protecting digital assets and systems from cyber threats. I hold certifications in "Malware Analysis and Introduction to Assembly Language" from IBM and the "Google Cybersecurity Professional Certificate" from Google.
+My name is Nurkanat. I am a platform- and security-focused engineer with a passion for protecting digital assets and systems from cyber threats.
 
 <!-- ![Diving](/blog/assets/images/diving.jpg#center) -->
 

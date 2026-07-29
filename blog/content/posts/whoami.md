@@ -14,7 +14,7 @@ relative = false
 
 # About me
 
-My name is Nurkanat. I am a platform- and security-focused engineer with a passion for protecting digital assets and systems from cyber threats. I hold certifications in "Malware Analysis and Introduction to Assembly Language" from IBM and the "Google Cybersecurity Professional Certificate" from Google.
+My name is Nurkanat. I am a platform- and security-focused engineer with a passion for protecting digital assets and systems from cyber threats.
 
 <!-- ![Diving](/blog/assets/images/diving.jpg#center) -->
 
@@ -115,8 +115,4 @@ I review the security architecture and deployment approach of services across hu
 # Publications
 
 - **Investigating Knowledge Graphs for Context-Aware Search in Financial Transactional AI Agents** — ICECCO 2026, indexed in IEEE Xplore. [ORCID: 0009-0000-8386-4960](https://orcid.org/0009-0000-8386-4960)
-
-# Certificates
-
-- [Google Cybersecurity Professional](https://www.coursera.org/account/accomplishments/specialization/certificate/K9HHGTC2J6UH) -> [PDF](/blog/assets/pdfs/Google_Cybersecurity_Professional.pdf)
 

@@ -72,20 +72,6 @@ environments:
     disableLiveReload: false
 menu:
   main:
-    - weight: 10
-      identifier: Resume
-      pre: ""
-      post: ""
-      name: Resume
-      url: /assets/pdfs/resume_2026.pdf
-      title: "My Resume"
-    - weight: 20
-      identifier: whoami
-      pre: ""
-      post: ""
-      name: whoami
-      url: /posts/whoami/
-      title: "Who am I? | About me"
     - weight: 30
       identifier: posts
       pre: ""

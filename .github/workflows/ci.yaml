@@ -70,6 +70,29 @@ jobs:
           mkdir public
           mkdir public/blog
 
+      # The résumé is built and released by tuchaVshortah/resume's own CI.
+      # Pull the current release asset into portfolio/public so the site serves
+      # it at /resume.pdf and can never ship a stale copy. The résumé repo is
+      # private, so this needs the RESUME_REPO_TOKEN secret: a fine-grained PAT
+      # with contents:read on tuchaVshortah/resume.
+      - name: Fetch résumé from resume repo release
+        env:
+          GH_TOKEN: ${{ secrets.RESUME_REPO_TOKEN }}
+        run: |
+          set -euo pipefail
+          if [ -z "${GH_TOKEN:-}" ]; then
+            echo "::error::RESUME_REPO_TOKEN is not set — cannot fetch resume.pdf. Add a fine-grained PAT with contents:read on tuchaVshortah/resume."
+            exit 1
+          fi
+          gh release download --repo tuchaVshortah/resume \
+            --pattern 'resume.pdf' \
+            --output portfolio/public/resume.pdf --clobber
+          # Fail loudly rather than deploying a site whose Résumé button 404s.
+          test -s portfolio/public/resume.pdf
+          head -c 4 portfolio/public/resume.pdf | grep -q '%PDF' \
+            || { echo "::error::Downloaded resume.pdf is not a PDF"; exit 1; }
+          echo "Fetched resume.pdf ($(stat -c%s portfolio/public/resume.pdf) bytes)"
+
       # Build Next.js project
       - name: Build Next.js
         working-directory: ./portfolio
